@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718139948" stop="1519718140550" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.amqp.AmqpMessageDispatcherServiceTest</name>
+    <test-cases>
+        <test-case start="1519718139948" stop="1519718140051" status="passed">
+            <name>sendDeleteRequestWithNullAdress</name>
+            <description type="text">Verfies that a delete message is not send if the address is null.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718140052" stop="1519718140073" status="passed">
+            <name>sendDeleteRequestWithNoAmqpAdress</name>
+            <description type="text">Verifies that a delete message is not send if the address is not an amqp address.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718140075" stop="1519718140095" status="passed">
+            <name>testSendCancelRequest</name>
+            <description type="text">Verifies that send cancel event works</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718140097" stop="1519718140266" status="passed">
+            <name>testSendDownloadRequesWithSoftwareModulesAndNoArtifacts</name>
+            <description type="text">Verifies that download and install event with 3 software moduls and no artifacts works</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718140269" stop="1519718140432" status="passed">
+            <name>testSendDownloadRequest</name>
+            <description type="text">Verifies that download and install event with software moduls and artifacts works</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718140434" stop="1519718140459" status="passed">
+            <name>sendDeleteRequest</name>
+            <description type="text">Verifies that sending a delete message when receiving a delete event works.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="AmqpMessage Dispatcher Service Test"/>
+        <label name="feature" value="Component Tests - Device Management Federation API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

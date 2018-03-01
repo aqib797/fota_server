@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717684955" stop="1519717685512" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.im.authentication.PermissionTest</name>
+    <test-cases>
+        <test-case start="1519717684985" stop="1519717685162" status="passed">
+            <name>testGetPermissions</name>
+            <description type="text">Verify the get permission function</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20314@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Permission Test"/>
+        <label name="feature" value="Unit Tests - Security"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

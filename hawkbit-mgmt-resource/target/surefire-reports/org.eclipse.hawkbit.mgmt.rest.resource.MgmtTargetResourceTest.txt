@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.hawkbit.mgmt.rest.resource.MgmtTargetResourceTest
+-------------------------------------------------------------------------------
+Tests run: 49, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.849 sec - in org.eclipse.hawkbit.mgmt.rest.resource.MgmtTargetResourceTest

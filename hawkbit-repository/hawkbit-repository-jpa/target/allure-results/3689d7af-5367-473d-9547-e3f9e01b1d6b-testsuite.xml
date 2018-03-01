@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717853281" stop="1519717891065" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.ArtifactManagementTest</name>
+    <test-cases>
+        <test-case start="1519717853281" stop="1519717853536" status="passed">
+            <name>entityQueriesReferringToNotExistingEntitiesThrowsException</name>
+            <description type="text">Verifies that management queries react as specfied on calls for non existing entities  by means of throwing EntityNotFoundException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717853538" stop="1519717853591" status="passed">
+            <name>loadArtifactBinaryWithoutDownloadArtifactThrowsPermissionDenied</name>
+            <description type="text">Trys and fails to load an artifact without required permission. Checks if expected InsufficientPermissionException is thrown.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717853593" stop="1519717853644" status="passed">
+            <name>findArtifact</name>
+            <description type="text">Loads an local artifact based on given ID.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717853646" stop="1519717853665" status="passed">
+            <name>loadStreamOfArtifact</name>
+            <description type="text">Loads an artifact binary based on given ID.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717853667" stop="1519717853701" status="passed">
+            <name>createArtifact</name>
+            <description type="text">Test if a local artifact can be created by API including metadata.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717853703" stop="1519717853730" status="passed">
+            <name>hardDeleteSoftwareModule</name>
+            <description type="text">Tests hard delete directly on repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717853731" stop="1519717853752" status="passed">
+            <name>findArtifactBySoftwareModule</name>
+            <description type="text">Searches an artifact through the relations of a software module.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717853754" stop="1519717853784" status="passed">
+            <name>deleteArtifact</name>
+            <description type="text">Tests the deletion of a local artifact including metadata.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717853786" stop="1519717853810" status="passed">
+            <name>findByFilenameAndSoftwareModule</name>
+            <description type="text">Searches an artifact through the relations of a software module and the filename.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717853812" stop="1519717853924" status="passed">
+            <name>nonExistingEntityAccessReturnsNotPresent</name>
+            <description type="text">Verifies that management get access react as specfied on calls for non existing entities by means of Optional not present.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717853927" stop="1519717853952" status="passed">
+            <name>deleteDuplicateArtifacts</name>
+            <description type="text">Test the deletion of an artifact metadata where the binary is still linked to another metadata element. The expected result is that the metadata is deleted but the binary kept.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Artifact Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

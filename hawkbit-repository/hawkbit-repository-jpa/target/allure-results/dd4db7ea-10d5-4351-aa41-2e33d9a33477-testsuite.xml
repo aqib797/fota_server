@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717805014" stop="1519717891071" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.TargetTagManagementTest</name>
+    <test-cases>
+        <test-case start="1519717805014" stop="1519717805281" status="passed">
+            <name>entityQueriesReferringToNotExistingEntitiesThrowsException</name>
+            <description type="text">Verifies that management queries react as specfied on calls for non existing entities  by means of throwing EntityNotFoundException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717805283" stop="1519717805521" status="passed">
+            <name>findAllTargetTags</name>
+            <description type="text">Ensures that all tags are retrieved through repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717805524" stop="1519717805590" status="passed">
+            <name>assignAndUnassignTargetTags</name>
+            <description type="text">Verifies the toogle mechanism by means on assigning tag if at least on target in the list does not havethe tag yet. Unassign if all of them have the tag already.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717805592" stop="1519717805844" status="passed">
+            <name>deleteTargetTags</name>
+            <description type="text">Ensures that a deleted tag is removed from the repository as defined.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717805845" stop="1519717805860" status="passed">
+            <name>failedDuplicateTargetTagNameException</name>
+            <description type="text">Ensures that a tag cannot be created if one exists already with that name (ecpects EntityAlreadyExistsException).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717805861" stop="1519717806061" status="passed">
+            <name>updateTargetTag</name>
+            <description type="text">Tests the name update of a target tag.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717806063" stop="1519717806077" status="passed">
+            <name>failedDuplicateTargetTagNameExceptionAfterUpdate</name>
+            <description type="text">Ensures that a tag cannot be updated to a name that already exists on another tag (ecpects EntityAlreadyExistsException).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717806078" stop="1519717806192" status="passed">
+            <name>nonExistingEntityAccessReturnsNotPresent</name>
+            <description type="text">Verifies that management get access reacts as specfied on calls for non existing entities by means of Optional not present.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717806194" stop="1519717806206" status="passed">
+            <name>createTargetTag</name>
+            <description type="text">Ensures that a created tag is persisted in the repository as defined.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Target Tag Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,13 @@
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-api/src/main/java/org/eclipse/hawkbit/dmf/json/model/DmfDownloadAndUpdateRequest.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-api/src/main/java/org/eclipse/hawkbit/dmf/amqp/api/EventTopic.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-api/src/main/java/org/eclipse/hawkbit/dmf/json/model/DmfArtifact.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-api/src/main/java/org/eclipse/hawkbit/dmf/amqp/api/MessageHeaderKey.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-api/src/main/java/org/eclipse/hawkbit/dmf/json/model/DmfActionStatus.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-api/src/main/java/org/eclipse/hawkbit/dmf/json/model/DmfSoftwareModule.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-api/src/main/java/org/eclipse/hawkbit/dmf/amqp/api/MessageType.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-api/src/main/java/org/eclipse/hawkbit/dmf/json/model/DmfActionUpdateStatus.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-api/src/main/java/org/eclipse/hawkbit/dmf/json/model/DmfDownloadResponse.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-api/src/main/java/org/eclipse/hawkbit/dmf/json/model/DmfMetadata.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-api/src/main/java/org/eclipse/hawkbit/dmf/json/model/DmfArtifactHash.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-api/src/main/java/org/eclipse/hawkbit/dmf/json/model/DmfAttributeUpdate.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-api/src/main/java/org/eclipse/hawkbit/dmf/amqp/api/AmqpSettings.java

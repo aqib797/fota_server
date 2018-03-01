@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717682822" stop="1519717683063" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.cache.DefaultDownloadIdCacheTest</name>
+    <test-cases>
+        <test-case start="1519717682862" stop="1519717682944" status="passed">
+            <name>evictKeyIsDelegatedToCacheManager</name>
+            <description type="text">Verifies that evicting a key is delegated to the CacheManager implementation</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20282@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717682958" stop="1519717682962" status="passed">
+            <name>tenancyCacheManagerIsUsingDirectCache</name>
+            <description type="text">Verifies that TenancyCacheManager is using direct cache because download-ids are global unique and don't need to run as tenant aware</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20282@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717682963" stop="1519717682964" status="passed">
+            <name>getValueReturnsTheAssociatedValueForKey</name>
+            <description type="text">Verifies that retrieving a value for a specific key is delegated to the CacheManager implementation</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20282@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717682965" stop="1519717682966" status="passed">
+            <name>getValueReturnsNullIfNoKeyIsAssociated</name>
+            <description type="text">Verifies that retrieving a null value for a specific key is delegated to the CacheManager implementation</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20282@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717682967" stop="1519717682968" status="passed">
+            <name>putKeyAndValueIsDelegatedToCacheManager</name>
+            <description type="text">Verifies that putting key and value is delegated to the CacheManager implementation</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20282@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Download ID Cache"/>
+        <label name="feature" value="Unit Tests - Cache"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

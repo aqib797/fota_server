@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718026389" stop="1519718056700" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.ddi.rest.resource.DdiCancelActionTest</name>
+    <test-cases>
+        <test-case start="1519718026389" stop="1519718026808" status="passed">
+            <name>rootRsCancelActionFeedback</name>
+            <description type="text">Tests the feedback channel of the cancel operation.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718026812" stop="1519718026935" status="passed">
+            <name>badCancelAction</name>
+            <description type="text">Tests various bad requests and if the server handles them as expected.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718026938" stop="1519718028010" status="passed">
+            <name>tooMuchCancelActionFeedback</name>
+            <description type="text">Tests the feeback channel closing for too many feedbacks, i.e. denial of service prevention.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718028012" stop="1519718028343" status="passed">
+            <name>multipleCancelActionFeedback</name>
+            <description type="text">Tests the feeback chanel of for multiple open cancel operations on the same target.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718028347" stop="1519718028472" status="passed">
+            <name>rootRsCancelAction</name>
+            <description type="text">Test for cancel operation of a update action.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718028474" stop="1519718028591" status="passed">
+            <name>badCancelActionFeedback</name>
+            <description type="text">test the correct rejection of various invalid feedback requests</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718028594" stop="1519718028681" status="passed">
+            <name>rootRsCancelActionButContinueAnyway</name>
+            <description type="text">Test of the controller can continue a started update even after a cancel command if it so desires.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Cancel Action Resource"/>
+        <label name="feature" value="Component Tests - Direct Device Integration API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

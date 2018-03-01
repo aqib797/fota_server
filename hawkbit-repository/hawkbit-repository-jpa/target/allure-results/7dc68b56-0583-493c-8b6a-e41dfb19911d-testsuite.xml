@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717838820" stop="1519717890972" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.TargetFilterQueryManagementTest</name>
+    <test-cases>
+        <test-case start="1519717838821" stop="1519717839149" status="passed">
+            <name>entityQueriesReferringToNotExistingEntitiesThrowsException</name>
+            <description type="text">Verifies that management queries react as specfied on calls for non existing entities  by means of throwing EntityNotFoundException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717839151" stop="1519717839163" status="passed">
+            <name>createTargetFilterQuery</name>
+            <description type="text">Test creation of target filter query.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717839165" stop="1519717839196" status="passed">
+            <name>findFiltersWithDistributionSet</name>
+            <description type="text">Test finding and auto assign distribution set</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717839197" stop="1519717839215" status="passed">
+            <name>assignDistributionSet</name>
+            <description type="text">Test assigning a distribution set</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717839217" stop="1519717839229" status="passed">
+            <name>updateTargetFilterQuery</name>
+            <description type="text">Test updation of target filter query.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717839233" stop="1519717839303" status="passed">
+            <name>implicitlyRemoveAssignDistributionSet</name>
+            <description type="text">Test to implicitly remove the auto assign distribution set when the ds is soft deleted</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717839305" stop="1519717839317" status="passed">
+            <name>deleteTargetFilterQuery</name>
+            <description type="text">Test deletion of target filter query.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717839319" stop="1519717839332" status="passed">
+            <name>createDuplicateTargetFilterQuery</name>
+            <description type="text">Checks if the EntityAlreadyExistsException is thrown if a targetfilterquery with the same name are created more than once.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717839334" stop="1519717839355" status="passed">
+            <name>removeAssignDistributionSet</name>
+            <description type="text">Test removing distribution set while it has a relation to a target filter query</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717839357" stop="1519717839371" status="passed">
+            <name>searchTargetFilterQuery</name>
+            <description type="text">Test searching a target filter query.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717839373" stop="1519717839387" status="passed">
+            <name>searchTargetFilterQueryInvalidField</name>
+            <description type="text">Test searching a target filter query with an invalid filter.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717839389" stop="1519717839515" status="passed">
+            <name>nonExistingEntityAccessReturnsNotPresent</name>
+            <description type="text">Verifies that management get access reacts as specfied on calls for non existing entities by means of Optional not present.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Target Filter Query Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

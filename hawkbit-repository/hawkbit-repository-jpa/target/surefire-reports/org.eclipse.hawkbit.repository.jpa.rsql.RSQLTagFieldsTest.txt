@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.hawkbit.repository.jpa.rsql.RSQLTagFieldsTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.104 sec - in org.eclipse.hawkbit.repository.jpa.rsql.RSQLTagFieldsTest

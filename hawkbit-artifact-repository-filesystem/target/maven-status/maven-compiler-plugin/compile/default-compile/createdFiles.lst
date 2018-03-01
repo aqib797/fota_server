@@ -1,0 +1,4 @@
+org/eclipse/hawkbit/artifact/repository/ArtifactFilesystemConfiguration.class
+org/eclipse/hawkbit/artifact/repository/ArtifactFilesystemProperties.class
+org/eclipse/hawkbit/artifact/repository/ArtifactFilesystem.class
+org/eclipse/hawkbit/artifact/repository/ArtifactFilesystemRepository.class

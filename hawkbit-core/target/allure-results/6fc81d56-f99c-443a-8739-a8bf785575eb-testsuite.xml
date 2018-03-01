@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717682971" stop="1519717683166" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.api.Base62UtilTest</name>
+    <test-cases>
+        <test-case start="1519717682971" stop="1519717682971" status="passed">
+            <name>fromBase10</name>
+            <description type="text">Convert Base10 numbres to Base62 ASCII strings.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20282@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717682972" stop="1519717682975" status="passed">
+            <name>toBase10</name>
+            <description type="text">Convert Base62 ASCII strings to Base10 numbers.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20282@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Base62 Utility tests"/>
+        <label name="feature" value="Unit Tests - Artifact URL Handler"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

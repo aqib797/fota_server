@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717850869" stop="1519717890989" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.model.ModelEqualsHashcodeTest</name>
+    <test-cases>
+        <test-case start="1519717850869" stop="1519717850926" status="passed">
+            <name>managedEntityIsEqualToUnamangedObjectWithSameKey</name>
+            <description type="text">Verify that no proxy of the entity manager has an influence on the equals or hashcode result.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717850927" stop="1519717850939" status="passed">
+            <name>changedEntitiesAreNotEqual</name>
+            <description type="text">Verfies that updated entities are not equal.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717850941" stop="1519717850951" status="passed">
+            <name>differentEntitiesAreNotEqual</name>
+            <description type="text">Verfies that different object even with identical primary key, version and tenant are not equal.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717850953" stop="1519717850964" status="passed">
+            <name>differentEntitiesReturnDifferentHashCodes</name>
+            <description type="text">Verfies that different objects even with identical primary key, version and tenant return different hash codes.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Repository Model"/>
+        <label name="feature" value="Unit Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

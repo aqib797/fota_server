@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717740518" stop="1519717891068" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.RolloutGroupManagementTest</name>
+    <test-cases>
+        <test-case start="1519717740518" stop="1519717741571" status="passed">
+            <name>entityQueriesReferringToNotExistingEntitiesThrowsException</name>
+            <description type="text">Verifies that management queries react as specfied on calls for non existing entities  by means of throwing EntityNotFoundException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717741573" stop="1519717741715" status="passed">
+            <name>nonExistingEntityAccessReturnsNotPresent</name>
+            <description type="text">Verifies that management get access reacts as specfied on calls for non existing entities by means of Optional not present.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Rollout Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

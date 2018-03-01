@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717718834" stop="1519717891078" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.SystemManagementTest</name>
+    <test-cases>
+        <test-case start="1519717718847" stop="1519717723125" status="passed">
+            <name>systemUsageReportCollectsActionsOfAllTenants</name>
+            <description type="text">Checks that the system report calculates correctly the actions size of all tenants in the system</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717723163" stop="1519717723550" status="passed">
+            <name>systemUsageReportCollectsTargetsOfAllTenants</name>
+            <description type="text">Checks that the system report calculates correctly the targets size of all tenants in the system</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717723553" stop="1519717723951" status="passed">
+            <name>systemUsageReportCollectsArtifactsOfAllTenants</name>
+            <description type="text">Checks that the system report calculates correctly the artifact size of all tenants in the system. It ignores deleted software modules with their artifacts.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717723954" stop="1519717724020" status="passed">
+            <name>findTenantsReturnsAllTenantsNotOnlyWhichLoggedIn</name>
+            <description type="text">Ensures that findTenants returns all tenants and not only restricted to the tenant which currently is logged in</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="System Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

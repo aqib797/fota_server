@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717779481" stop="1519717891081" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.rsql.RsqlParserValidationOracleTest</name>
+    <test-cases>
+        <test-case start="1519717779482" stop="1519717779571" status="passed">
+            <name>suggestionContainsSubFieldSuggestions</name>
+            <description type="text">Verifies that sub suggestions are shown</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717779573" stop="1519717779620" status="passed">
+            <name>suggestionContainsOnlyAndOrOperator</name>
+            <description type="text">Verifies that suggestions only contains operator to combine RSQL filters (and, or)</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717779623" stop="1519717779650" status="passed">
+            <name>suggestionContainsOnlyOperators</name>
+            <description type="text">Verifies that suggestions only contains the allowed operators</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717779652" stop="1519717779674" status="passed">
+            <name>suggestionContainsAllFieldNames</name>
+            <description type="text">Verifies that suggestions contains all possible field names</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="RSQL filter suggestion"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

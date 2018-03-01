@@ -1,0 +1,12 @@
+org/eclipse/hawkbit/mgmt/rest/resource/AbstractManagementApiIntegrationTest.class
+org/eclipse/hawkbit/mgmt/rest/resource/MgmtRolloutResourceTest.class
+org/eclipse/hawkbit/mgmt/rest/resource/MgmtSoftwareModuleResourceTest.class
+org/eclipse/hawkbit/mgmt/rest/resource/MgmtTargetTagResourceTest.class
+org/eclipse/hawkbit/mgmt/rest/resource/MgmtDistributionSetTypeResourceTest.class
+org/eclipse/hawkbit/mgmt/rest/resource/MgmtTargetFilterQueryResourceTest.class
+org/eclipse/hawkbit/mgmt/rest/resource/MgmtSoftwareModuleTypeResourceTest.class
+org/eclipse/hawkbit/mgmt/rest/resource/MgmtDistributionSetResourceTest.class
+org/eclipse/hawkbit/mgmt/rest/resource/MgmtDistributionSetTagResourceTest.class
+org/eclipse/hawkbit/mgmt/rest/resource/MgmtTargetResourceTest.class
+org/eclipse/hawkbit/mgmt/rest/resource/ResourceUtility.class
+org/eclipse/hawkbit/mgmt/rest/resource/MgmtDownloadResourceTest.class

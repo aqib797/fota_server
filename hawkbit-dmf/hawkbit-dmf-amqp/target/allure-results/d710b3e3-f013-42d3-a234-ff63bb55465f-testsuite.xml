@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718106175" stop="1519718140556" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.integration.AmqpMessageDispatcherServiceIntegrationTest</name>
+    <test-cases>
+        <test-case start="1519718106175" stop="1519718108155" status="passed">
+            <name>sendCancelStatus</name>
+            <description type="text">Verify that a cancel assignment send a cancel message.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718108176" stop="1519718110193" status="passed">
+            <name>assignDistributionSetMultipleTimes</name>
+            <description type="text">Verify that a distribution assignment multiple times send cancel and assign events with right softwaremodules</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718110199" stop="1519718111715" status="passed">
+            <name>sendDownloadAndInstallStatus</name>
+            <description type="text">Verify that a distribution assignment send a download and install message.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718111721" stop="1519718112257" status="passed">
+            <name>sendDeleteMessage</name>
+            <description type="text">Verify that when a target is deleted a target delete message is send.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Amqp Message Dispatcher Service"/>
+        <label name="feature" value="Component Tests - Device Management Federation API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

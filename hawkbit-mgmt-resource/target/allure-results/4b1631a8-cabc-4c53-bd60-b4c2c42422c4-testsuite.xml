@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717983390" stop="1519717987907" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.mgmt.rest.resource.MgmtTargetFilterQueryResourceTest</name>
+    <test-cases>
+        <test-case start="1519717983390" stop="1519717983521" status="passed">
+            <name>getTargetWithPagingLimitAndOffsetRequestParameter</name>
+            <description type="text">Ensures that request returns list of filters in defined format in size reduced by given limit and offset parameter.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717983524" stop="1519717983545" status="passed">
+            <name>getSingleTargetNoExistsResponseNotFound</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717983548" stop="1519717983572" status="passed">
+            <name>getSingleTarget</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717983575" stop="1519717983669" status="passed">
+            <name>setAutoAssignDistributionSetToTargetFilterQuery</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717983673" stop="1519717983710" status="passed">
+            <name>updateTargetFilterQueryQuery</name>
+            <description type="text">Ensures that update request is reflected by repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717983713" stop="1519717983763" status="passed">
+            <name>deleteAutoAssignDistributionSetOfTargetFilterQuery</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717983766" stop="1519717983796" status="passed">
+            <name>deleteTargetFilterQueryReturnsOK</name>
+            <description type="text">Ensures that deletion is executed if permitted.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717983799" stop="1519717983824" status="passed">
+            <name>updateTargetWhichDoesNotExistsLeadsToEntityNotFound</name>
+            <description type="text">Ensures that update is refused with not found if target does not exist.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717983827" stop="1519717983859" status="passed">
+            <name>getTargetFilterQueryWithoutAdditionalRequestParameters</name>
+            <description type="text">Ensures that request returns list of filters in defined format.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717983861" stop="1519717983888" status="passed">
+            <name>deleteTargetWhichDoesNotExistsLeadsToEntityNotFound</name>
+            <description type="text">Ensures that deletion is refused with not found if target does not exist.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717983891" stop="1519717983922" status="passed">
+            <name>getTargetWithPagingLimitRequestParameter</name>
+            <description type="text">Ensures that request returns list of filters in defined format in size reduced by given limit parameter.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717983924" stop="1519717983958" status="passed">
+            <name>updateTargetFilterQueryName</name>
+            <description type="text">Ensures that update request is reflected by repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717983961" stop="1519717983988" status="passed">
+            <name>createTargetFilterQueryWithBadPayloadBadRequest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Target Filter Query Resource"/>
+        <label name="feature" value="Component Tests - Management API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

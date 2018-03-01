@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718178786" stop="1519718179318" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.ui.dd.client.criteria.ItemIdClientCriterionTest</name>
+    <test-cases>
+        <test-case start="1519718178786" stop="1519718179176" status="passed">
+            <name>noMatchInPrefixMode</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718179176" stop="1519718179177" status="passed">
+            <name>matchInStrictMode</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718179178" stop="1519718179179" status="passed">
+            <name>matchInPrefixMode</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718179179" stop="1519718179180" status="passed">
+            <name>noMatchInStrictMode</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

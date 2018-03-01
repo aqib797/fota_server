@@ -1,0 +1,2 @@
+/home/apoorva/hawkbit/hawkbit-security-integration/src/test/java/org/eclipse/hawkbit/security/ControllerPreAuthenticatedSecurityHeaderFilterTest.java
+/home/apoorva/hawkbit/hawkbit-security-integration/src/test/java/org/eclipse/hawkbit/security/ControllerPreAuthenticatedAnonymousDownloadTest.java

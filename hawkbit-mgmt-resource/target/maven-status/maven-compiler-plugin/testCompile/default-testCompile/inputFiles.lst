@@ -1,0 +1,12 @@
+/home/apoorva/hawkbit/hawkbit-mgmt-resource/src/test/java/org/eclipse/hawkbit/mgmt/rest/resource/MgmtDistributionSetTypeResourceTest.java
+/home/apoorva/hawkbit/hawkbit-mgmt-resource/src/test/java/org/eclipse/hawkbit/mgmt/rest/resource/MgmtRolloutResourceTest.java
+/home/apoorva/hawkbit/hawkbit-mgmt-resource/src/test/java/org/eclipse/hawkbit/mgmt/rest/resource/MgmtDistributionSetResourceTest.java
+/home/apoorva/hawkbit/hawkbit-mgmt-resource/src/test/java/org/eclipse/hawkbit/mgmt/rest/resource/MgmtTargetTagResourceTest.java
+/home/apoorva/hawkbit/hawkbit-mgmt-resource/src/test/java/org/eclipse/hawkbit/mgmt/rest/resource/MgmtTargetFilterQueryResourceTest.java
+/home/apoorva/hawkbit/hawkbit-mgmt-resource/src/test/java/org/eclipse/hawkbit/mgmt/rest/resource/AbstractManagementApiIntegrationTest.java
+/home/apoorva/hawkbit/hawkbit-mgmt-resource/src/test/java/org/eclipse/hawkbit/mgmt/rest/resource/ResourceUtility.java
+/home/apoorva/hawkbit/hawkbit-mgmt-resource/src/test/java/org/eclipse/hawkbit/mgmt/rest/resource/MgmtDownloadResourceTest.java
+/home/apoorva/hawkbit/hawkbit-mgmt-resource/src/test/java/org/eclipse/hawkbit/mgmt/rest/resource/MgmtDistributionSetTagResourceTest.java
+/home/apoorva/hawkbit/hawkbit-mgmt-resource/src/test/java/org/eclipse/hawkbit/mgmt/rest/resource/MgmtSoftwareModuleTypeResourceTest.java
+/home/apoorva/hawkbit/hawkbit-mgmt-resource/src/test/java/org/eclipse/hawkbit/mgmt/rest/resource/MgmtSoftwareModuleResourceTest.java
+/home/apoorva/hawkbit/hawkbit-mgmt-resource/src/test/java/org/eclipse/hawkbit/mgmt/rest/resource/MgmtTargetResourceTest.java

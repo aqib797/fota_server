@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718136397" stop="1519718140536" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.amqp.AmqpControllerAuthenticationTest</name>
+    <test-cases>
+        <test-case start="1519718136397" stop="1519718136447" status="passed">
+            <name>testSuccessfullAuthentication</name>
+            <description type="text">Tests authentication successfull</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136448" stop="1519718136455" status="passed">
+            <name>successfullMessageAuthenticationWithTargetIdAndArtifactId</name>
+            <description type="text">Tests authentication message successfull with targetId intead of controllerId provided and artifactId instead of SHA1.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136456" stop="1519718136466" status="passed">
+            <name>successfullMessageAuthenticationWithTenantid</name>
+            <description type="text">Tests authentication message successfull</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136467" stop="1519718136475" status="passed">
+            <name>successfullMessageAuthentication</name>
+            <description type="text">Tests authentication message successfull</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136477" stop="1519718136482" status="passed">
+            <name>testAuthenticationMessageBadCredantialsWithWrongCredential</name>
+            <description type="text">Tests authentication message without wrong credential</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136483" stop="1519718136485" status="passed">
+            <name>testAuthenticationeBadCredantialsWithoutPricipal</name>
+            <description type="text">Tests authentication manager without principal</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136486" stop="1519718136488" status="passed">
+            <name>testAuthenticationBadCredantialsWithWrongCredential</name>
+            <description type="text">Tests authentication manager without wrong credential</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136489" stop="1519718136495" status="passed">
+            <name>testAuthenticationMessageBadCredantialsWithoutPricipal</name>
+            <description type="text">Tests authentication message without principal</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="AmqpController Authentication Test"/>
+        <label name="feature" value="Component Tests - Device Management Federation API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

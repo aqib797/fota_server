@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717732680" stop="1519717891043" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.DistributionSetTypeManagementTest</name>
+    <test-cases>
+        <test-case start="1519717732680" stop="1519717732836" status="passed">
+            <name>addModuleToAssignedDistributionSetTypeFails</name>
+            <description type="text">Tests the unsuccessfull update of used distribution set type (module addition).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717732839" stop="1519717733294" status="passed">
+            <name>createAndUpdateDistributionSetWithInvalidFields</name>
+            <description type="text">Verify that a DistributionSet with invalid properties cannot be created or updated</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717733297" stop="1519717733349" status="passed">
+            <name>deleteAssignedDistributionSetType</name>
+            <description type="text">Tests the successfull deletion of used (soft delete) distribution set types.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717733351" stop="1519717733498" status="passed">
+            <name>entityQueriesReferringToNotExistingEntitiesThrowsException</name>
+            <description type="text">Verifies that management queries react as specfied on calls for non existing entities  by means of throwing EntityNotFoundException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717733501" stop="1519717733549" status="passed">
+            <name>removeModuleToAssignedDistributionSetTypeFails</name>
+            <description type="text">Tests the unsuccessfull update of used distribution set type (module removal).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717733551" stop="1519717733597" status="passed">
+            <name>deleteUnassignedDistributionSetType</name>
+            <description type="text">Tests the successfull deletion of unused (hard delete) distribution set types.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717733601" stop="1519717733667" status="passed">
+            <name>updateUnassignedDistributionSetTypeModules</name>
+            <description type="text">Tests the successfull module update of unused distribution set type which is in fact allowed.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717733671" stop="1519717733723" status="passed">
+            <name>updateAssignedDistributionSetTypeMetaData</name>
+            <description type="text">Tests the successfull update of used distribution set type meta data which is in fact allowed.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717733727" stop="1519717733868" status="passed">
+            <name>nonExistingEntityAccessReturnsNotPresent</name>
+            <description type="text">Verifies that management get access react as specfied on calls for non existing entities by means of Optional not present.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="DistributionSet Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717901850" stop="1519717901989" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.mgmt.json.model.PagedListTest</name>
+    <test-cases>
+        <test-case start="1519717901862" stop="1519717901962" status="passed">
+            <name>createListWithContent</name>
+            <description type="text">Create list with payload and verify content.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21539@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717901984" stop="1519717901985" status="passed">
+            <name>createListWithSmallerTotalThanContentSizeIsOk</name>
+            <description type="text">Create list with payload and verify size values.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21539@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717901985" stop="1519717901986" status="passed">
+            <name>createListWithNullContentThrowsException</name>
+            <description type="text">Ensures that a null payload entitiy throws an exception.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21539@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Paged List Handling"/>
+        <label name="feature" value="Unit Tests - Management API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

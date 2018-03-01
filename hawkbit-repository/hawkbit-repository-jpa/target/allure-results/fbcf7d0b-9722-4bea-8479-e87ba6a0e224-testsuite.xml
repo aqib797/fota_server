@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717878302" stop="1519717891009" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.event.remote.entity.DistributionSetTagEventTest</name>
+    <test-cases>
+        <test-case start="1519717878302" stop="1519717878382" status="passed">
+            <name>testDistributionSetTagCreatedEvent</name>
+            <description type="text">Verifies that the distribution set tag entity reloading by remote created event works</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717878383" stop="1519717878405" status="passed">
+            <name>testDistributionSetTagUpdateEvent</name>
+            <description type="text">Verifies that the distribution set tag entity reloading by remote updated event works</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Test DistributionSetTagCreatedEvent and DistributionSetTagUpdateEvent"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

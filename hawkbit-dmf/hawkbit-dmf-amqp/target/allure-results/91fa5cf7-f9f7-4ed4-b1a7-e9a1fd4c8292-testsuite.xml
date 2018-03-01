@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718120268" stop="1519718140561" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.integration.AmqpAuthenticationMessageHandlerIntegrationTest</name>
+    <test-cases>
+        <test-case start="1519718120268" stop="1519718120668" status="passed">
+            <name>artifactForFileResourceFileNameFoundTargetExistsButNotAssigned</name>
+            <description type="text">Verify that the receive message contains a 404, if there is no distribution set assigned to the target</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718120693" stop="1519718120881" status="passed">
+            <name>artifactForFileResourceArtifactIdFoundTargetExistsIsAssigned</name>
+            <description type="text">Verify that the receive message contains a 200 and a artifact for the given artifact id</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718120887" stop="1519718120925" status="passed">
+            <name>loginFailedBadCredentials</name>
+            <description type="text">Verify that login fails if the given credential not match.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718120933" stop="1519718123962" status="passed">
+            <name>securityTokenIsNull</name>
+            <description type="text">Tests a null message. This message is invalid and should not be requeued. Additional the receive message is null</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718123984" stop="1519718124093" status="passed">
+            <name>artifactForFileResourceSoftwareModuleFilenameFoundTargetNotExists</name>
+            <description type="text">Verify that the receive message contains a 404, if there is no existing target for the file resource</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718124109" stop="1519718127155" status="passed">
+            <name>securityTokenTenantIsNull</name>
+            <description type="text">Tenant in the message is null. This message is invalid and should not be requeued. Additional the receive message is null</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718127162" stop="1519718127267" status="passed">
+            <name>artifactForFileResourceSHA1FoundByTargetIdTargetExistsButIsNotAssigned</name>
+            <description type="text">Verify that the receive message contains a 404 code , if the distributionSet is not assigned to the target</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718127276" stop="1519718130304" status="passed">
+            <name>wrongContentType</name>
+            <description type="text">Tests wrong content type. This message is invalid and should not be requeued. Additional the receive message is null</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718130398" stop="1519718130586" status="passed">
+            <name>artifactForFileResourceSHA1FoundTargetNotExists</name>
+            <description type="text">Verify that the receive message contains a 404 code, if there is no existing target for the given controller id</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718130594" stop="1519718130733" status="passed">
+            <name>targetTokenAuthentification</name>
+            <description type="text">Artifact is downloaded anonymous as there is not target id or controller id assigned to the target.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718130741" stop="1519718130784" status="passed">
+            <name>securityTokenFileResourceIsNull</name>
+            <description type="text">Target in the message is null.This message is invalid and should not requeued. Additional the receive message is null</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718130793" stop="1519718130966" status="passed">
+            <name>anonymousAuthentification</name>
+            <description type="text">Verify that the receive message contains a 200 code and a artifact without a controller id (anonymous enabled)</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718130972" stop="1519718131014" status="passed">
+            <name>artifactForFileResourceFileNameNotFound</name>
+            <description type="text">Verify that the receive message contains a 404, if there is no artifact to the given filename</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718131057" stop="1519718131177" status="passed">
+            <name>artifactForFileResourceSHA1FoundTargetExistsButNotAssigned</name>
+            <description type="text">Verify that the receive message contains a 404 code, if there is no existing artifact for the target</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718131185" stop="1519718131369" status="passed">
+            <name>artifactForFileResourceSHA1FoundByTargetIdTargetExistsIsAssigned</name>
+            <description type="text">Verify that the receive message contains a 200 code and a artifact for the existing target id </description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718131375" stop="1519718131486" status="passed">
+            <name>artifactForFileResourceArtifactIdFoundTargetNotExists</name>
+            <description type="text">Verify that the receive message contains a 404, if there is no exisiting target</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718131493" stop="1519718131666" status="passed">
+            <name>artifactForFileResourceSoftwareModuleFilenameFoundTargetExistsIsAssigned</name>
+            <description type="text">Verify that the receive message contains a 200 and a artifact, if there is a existing artifct fpt the for the given softwareModuleFilename</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718131854" stop="1519718131897" status="passed">
+            <name>fileResourceGetSha1InSecurityTokenIsNull</name>
+            <description type="text">Verify that the receive message contains a 404 code,if the artifact could not found</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718131942" stop="1519718131993" status="passed">
+            <name>artifactForFileResourceSoftwareModuleFilenameNotFound</name>
+            <description type="text">Verify that the receive message contains a 404, if there is no artifact to the given softwareModuleFilename</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718131998" stop="1519718132175" status="passed">
+            <name>artifactForFileResourceSHA1FoundTargetExistsIsAssigned</name>
+            <description type="text">Verify that the receive message contains a 200 code and a artifact for the existing controller id </description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718132264" stop="1519718132305" status="passed">
+            <name>artifactForFileResourceSHA1NotFound</name>
+            <description type="text">Verify that the receive message contains a 404 code, if there is no artifact for the given sha1</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Amqp Authentication Message Handler"/>
+        <label name="feature" value="Component Tests - Device Management Federation API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

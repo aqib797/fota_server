@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.hawkbit.repository.jpa.rsql.RSQLTargetFieldTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.952 sec - in org.eclipse.hawkbit.repository.jpa.rsql.RSQLTargetFieldTest

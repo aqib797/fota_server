@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717848397" stop="1519717890942" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.model.EntityInterceptorListenerTest</name>
+    <test-cases>
+        <test-case start="1519717848397" stop="1519717848480" status="passed">
+            <name>postPersistIsCalledWhenPersistingATarget</name>
+            <description type="text">Verfies that the post persist is called after a entity creation.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717848482" stop="1519717848501" status="passed">
+            <name>prePersistIsCalledWhenPersistingATarget</name>
+            <description type="text">Verfies that the pre persist is called after a entity creation.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717848503" stop="1519717848518" status="passed">
+            <name>preUpdateIsCalledWhenUpdateATarget</name>
+            <description type="text">Verfies that the pre update is called after a entity update.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717848519" stop="1519717848533" status="passed">
+            <name>preRemoveIsCalledWhenDeletingATarget</name>
+            <description type="text">Verfies that the pre remove is called after a entity deletion.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717848534" stop="1519717848547" status="passed">
+            <name>postRemoveIsCalledWhenDeletingATarget</name>
+            <description type="text">Verfies that the post remove is called after a entity deletion.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717848549" stop="1519717848561" status="passed">
+            <name>postUpdateIsCalledWhenUpdateATarget</name>
+            <description type="text">Verfies that the post update is called after a entity update.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717848562" stop="1519717848576" status="passed">
+            <name>postLoadIsCalledWhenLoadATarget</name>
+            <description type="text">Verfies that the post load is called after a entity is loaded.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Entity Listener Interceptor"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

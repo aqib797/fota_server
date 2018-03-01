@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717875761" stop="1519717890968" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.event.remote.entity.DistributionSetUpdatedEventTest</name>
+    <test-cases>
+        <test-case start="1519717875761" stop="1519717875863" status="passed">
+            <name>testDistributionSetUpdateEvent</name>
+            <description type="text">Verifies that the distribution set entity reloading by remote updated event works</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Test DistributionSetUpdateEvent"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

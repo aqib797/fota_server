@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717745330" stop="1519717891012" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.ControllerManagementTest</name>
+    <test-cases>
+        <test-case start="1519717745330" stop="1519717746298" status="passed">
+            <name>tryToFinishWithErrorUpdateProcessMoreThanOnce</name>
+            <description type="text">Controller trys to finish an update process after it has been finished by an error action status.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717746301" stop="1519717746532" status="passed">
+            <name>targetPollEventNotSendIfDisabled</name>
+            <description type="text">Verify that controller registration does not result in a TargetPollEvent if feature is disabled</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717746535" stop="1519717746781" status="passed">
+            <name>entityQueriesReferringToNotExistingEntitiesThrowsException</name>
+            <description type="text">Verifies that management queries react as specfied on calls for non existing entities  by means of throwing EntityNotFoundException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717746785" stop="1519717747060" status="passed">
+            <name>updateTargetAttributesFailsIfTooManyEntries</name>
+            <description type="text">Ensures that target attribute update fails if quota hits.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717747063" stop="1519717748018" status="passed">
+            <name>hasTargetArtifactAssignedIsTrueWithMultipleArtifacts</name>
+            <description type="text">Verifies that assignement verification works based on SHA1 hash. By design it is not important which artifact is actually used for the check as long as they have an identical binary, i.e. same SHA1 hash. </description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717748022" stop="1519717748401" status="passed">
+            <name>findTargetVisibleMetaDataBySoftwareModuleId</name>
+            <description type="text">Verify that targetVisible metadata is returned from repository</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717748404" stop="1519717748637" status="passed">
+            <name>findOrRegisterTargetIfItDoesNotexist</name>
+            <description type="text">Register a controller which does not exist</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717748640" stop="1519717749433" status="passed">
+            <name>controllerConfirmsUpdateWithFinished</name>
+            <description type="text">Controller confirms successfull update with FINISHED status.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717749436" stop="1519717749670" status="passed">
+            <name>updateTargetAttributes</name>
+            <description type="text">Ensures that target attribute update is reflected by the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717749674" stop="1519717750350" status="passed">
+            <name>controllerProvidesIntermediateFeedbackFailsIfQuotaHit</name>
+            <description type="text">Controller providing status entries fails if providing more than permitted by quota.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717750353" stop="1519717751010" status="passed">
+            <name>cancellationFeedbackRejectedIfActionIsNotInCanceling</name>
+            <description type="text">Update server rejects cancelation feedback if action is not in CANCELING state.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717751015" stop="1519717751080" status="passed">
+            <name>findMessagesByActionStatusId</name>
+            <description type="text">Test to verify the storage and retrieval of action history.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717751083" stop="1519717751852" status="passed">
+            <name>sendUpdatesForFinishUpdateProcessDropedIfDisabled</name>
+            <description type="text">Controller trys to send an update feedback after it has been finished which is reject as the repository is configured to reject that.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717751856" stop="1519717752784" status="passed">
+            <name>controllerRejectsActionCancelationWithReject</name>
+            <description type="text">Controller rejects action cancelation with CANCEL_REJECTED status. Action goes back to RUNNING status as it expects that the controller will continue the original update.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717752787" stop="1519717753678" status="passed">
+            <name>controllerConfirmsActionCancelationWithFinished</name>
+            <description type="text">Controller confirms action cancelation with FINISHED status.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717753681" stop="1519717754460" status="passed">
+            <name>sendUpdatesForFinishUpdateProcessAcceptedIfEnabled</name>
+            <description type="text">Controller trys to send an update feedback after it has been finished which is accepted as the repository is configured to accept them.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717754463" stop="1519717755385" status="passed">
+            <name>controllerConfirmsActionCancelationWithCanceled</name>
+            <description type="text">Controller confirms action cancelation with FINISHED status.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717755395" stop="1519717756249" status="passed">
+            <name>controllerConfirmsUpdateWithFinishedAndIgnorsCancellationWithThat</name>
+            <description type="text">Controller confirms successfull update with FINISHED status on a action that is on canceling. Reason: The decission to ignore the cancellation is in fact up to the controller.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717756252" stop="1519717757013" status="passed">
+            <name>tryToFinishUpdateProcessMoreThanOnce</name>
+            <description type="text">Controller trys to finish an update process after it has been finished by an FINISHED action status.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717757016" stop="1519717757274" status="passed">
+            <name>nonExistingEntityAccessReturnsNotPresent</name>
+            <description type="text">Verifies that management get access react as specfied on calls for non existing entities by means of Optional not present.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717757278" stop="1519717758197" status="passed">
+            <name>controllerRejectsActionCancelationWithError</name>
+            <description type="text">Controller rejects action cancelation with ERROR status. Action goes back to RUNNING status as it expects that the controller will continue the original update.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Controller Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

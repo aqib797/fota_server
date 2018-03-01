@@ -1,0 +1,13 @@
+org/eclipse/hawkbit/dmf/json/model/DmfActionUpdateStatus.class
+org/eclipse/hawkbit/dmf/json/model/DmfAttributeUpdate.class
+org/eclipse/hawkbit/dmf/json/model/DmfDownloadAndUpdateRequest.class
+org/eclipse/hawkbit/dmf/amqp/api/AmqpSettings.class
+org/eclipse/hawkbit/dmf/json/model/DmfArtifact.class
+org/eclipse/hawkbit/dmf/amqp/api/MessageHeaderKey.class
+org/eclipse/hawkbit/dmf/json/model/DmfArtifactHash.class
+org/eclipse/hawkbit/dmf/json/model/DmfSoftwareModule.class
+org/eclipse/hawkbit/dmf/json/model/DmfDownloadResponse.class
+org/eclipse/hawkbit/dmf/json/model/DmfMetadata.class
+org/eclipse/hawkbit/dmf/amqp/api/MessageType.class
+org/eclipse/hawkbit/dmf/json/model/DmfActionStatus.class
+org/eclipse/hawkbit/dmf/amqp/api/EventTopic.class

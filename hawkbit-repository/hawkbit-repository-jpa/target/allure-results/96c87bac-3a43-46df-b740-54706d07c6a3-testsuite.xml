@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717793550" stop="1519717891028" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.rsql.RSQLSoftwareModuleFieldTest</name>
+    <test-cases>
+        <test-case start="1519717793550" stop="1519717793664" status="passed">
+            <name>testFilterByType</name>
+            <description type="text">Test filter software module by type</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717793666" stop="1519717793692" status="passed">
+            <name>testFilterByParameterDescription</name>
+            <description type="text">Test filter software module by description</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717793694" stop="1519717793734" status="passed">
+            <name>testFilterByMetadata</name>
+            <description type="text">Test filter software module by metadata</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717793737" stop="1519717793779" status="passed">
+            <name>testFilterByParameterName</name>
+            <description type="text">Test filter software module by name</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717793782" stop="1519717793808" status="passed">
+            <name>testFilterByParameterId</name>
+            <description type="text">Test filter software module by id</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717793810" stop="1519717793838" status="passed">
+            <name>testFilterByParameterVersion</name>
+            <description type="text">Test filter software module by version</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="RSQL filter software module"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

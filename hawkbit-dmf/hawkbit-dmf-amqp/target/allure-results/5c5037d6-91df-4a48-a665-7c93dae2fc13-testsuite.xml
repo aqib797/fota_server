@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718071753" stop="1519718140569" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.integration.AmqpMessageHandlerServiceIntegrationTest</name>
+    <test-cases>
+        <test-case start="1519718071757" stop="1519718072608" status="passed">
+            <name>missingThingIdProperty</name>
+            <description type="text">Tests missing thing id property in message. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718072639" stop="1519718072933" status="passed">
+            <name>updateActionStatusWithEmptyContent</name>
+            <description type="text">Tests invalid empty message content. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718072991" stop="1519718073620" status="passed">
+            <name>registerTargets</name>
+            <description type="text">Tests register target</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718073643" stop="1519718075241" status="passed">
+            <name>receiveDownLoadAndInstallMessageAfterAssignment</name>
+            <description type="text">Verfiy receiving a download and install message if a deployment is done before the target has polled the first time.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718075261" stop="1519718075542" status="passed">
+            <name>invalidTopicHeader</name>
+            <description type="text">Tests null topic message header. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718075553" stop="1519718077277" status="passed">
+            <name>canceledRejectedActionStatus</name>
+            <description type="text">Register a target and send a valid update action status (cancel_rejected). Verfiy if the updated action status is correct.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718077287" stop="1519718077552" status="passed">
+            <name>wrongContentType</name>
+            <description type="text">Tests not allowed content-type in message. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718077559" stop="1519718077816" status="passed">
+            <name>updateActionStatusWithInvalidJsonContent</name>
+            <description type="text">Tests invalid json message content. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718077824" stop="1519718078079" status="passed">
+            <name>tenantNotExist</name>
+            <description type="text">Tests tenant not exist. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718078117" stop="1519718079338" status="passed">
+            <name>receiveCancelUpdateMessageAfterAssignmentWasCanceled</name>
+            <description type="text">Verfiy receiving a cancel update message if a deployment is canceled before the target has polled the first time.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718079346" stop="1519718080706" status="passed">
+            <name>cancelNotAllowActionStatus</name>
+            <description type="text">Register a target and send a invalid update action status (cancel). This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718080715" stop="1519718080959" status="passed">
+            <name>emptyTenantHeader</name>
+            <description type="text">Tests empty tenant message header. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718080968" stop="1519718081225" status="passed">
+            <name>missingTypeHeader</name>
+            <description type="text">Tests missing type message header. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718081233" stop="1519718081793" status="passed">
+            <name>updateAttributes</name>
+            <description type="text">Verify that sending an update controller attribute message to an existing target works.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718081817" stop="1519718083282" status="passed">
+            <name>errorActionStatus</name>
+            <description type="text">Register a target and send a update action status (error). Verfiy if the updated action status is correct.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718083298" stop="1519718084920" status="passed">
+            <name>actionNotExists</name>
+            <description type="text">Register a target and send a invalid update action status (canceled). The current status (pending) is not a canceling state. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718084929" stop="1519718085165" status="passed">
+            <name>emptyTypeHeader</name>
+            <description type="text">Tests empty type message header. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718085175" stop="1519718086508" status="passed">
+            <name>retrievedActionStatus</name>
+            <description type="text">Register a target and send a update action status (retrieved). Verfiy if the updated action status is correct.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718086535" stop="1519718086784" status="passed">
+            <name>missingTopicHeader</name>
+            <description type="text">Tests missing topic message header. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718086797" stop="1519718086960" status="passed">
+            <name>pingDmfInterface</name>
+            <description type="text">Tests DMF PING request and expected reponse.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718086970" stop="1519718087221" status="passed">
+            <name>nullTopicHeader</name>
+            <description type="text">Tests null topic message header. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718087231" stop="1519718088658" status="passed">
+            <name>finishActionStatus</name>
+            <description type="text">Tests register target and cancel a assignment</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718088667" stop="1519718089977" status="passed">
+            <name>downloadActionStatus</name>
+            <description type="text">Register a target and send a update action status (download). Verfiy if the updated action status is correct.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718090003" stop="1519718090240" status="passed">
+            <name>registerWhitespaceTarget</name>
+            <description type="text">Tests register invalid target with whitspace controller id. Tests register invalid target with null controller id</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718090259" stop="1519718090514" status="passed">
+            <name>emptyTopicHeader</name>
+            <description type="text">Tests null topic message header. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718090539" stop="1519718090792" status="passed">
+            <name>invalidTypeHeader</name>
+            <description type="text">Tests invalid type message header. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718090808" stop="1519718091039" status="passed">
+            <name>registerEmptyTarget</name>
+            <description type="text">Tests register invalid target withy empty controller id. Tests register invalid target with null controller id</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718091085" stop="1519718091320" status="passed">
+            <name>missingReplyToProperty</name>
+            <description type="text">Tests null reply to property in message header. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718091328" stop="1519718091560" status="passed">
+            <name>nullThingIdProperty</name>
+            <description type="text">Tests null thing id property in message. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718091568" stop="1519718092215" status="passed">
+            <name>updateAttributesWithNoThingId</name>
+            <description type="text">Verify that sending an update controller attribute message with no thingid header to an existing target does not work.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718092222" stop="1519718093528" status="passed">
+            <name>canceledRejectedNotAllowActionStatus</name>
+            <description type="text">Register a target and send a invalid update action status (cancel_rejected). This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718093540" stop="1519718093772" status="passed">
+            <name>missingTenantHeader</name>
+            <description type="text">Tests missing tenant message header. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718093825" stop="1519718094364" status="passed">
+            <name>updateAttributesWithWrongBody</name>
+            <description type="text">Verify that sending an update controller attribute message with invalid body to an existing target does not work.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718094371" stop="1519718094599" status="passed">
+            <name>nullTypeHeader</name>
+            <description type="text">Tests null type message header. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718094607" stop="1519718094835" status="passed">
+            <name>registerInvalidNullTargets</name>
+            <description type="text">Tests register invalid target with null controller id. Tests register invalid target with null controller id</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718094844" stop="1519718096144" status="passed">
+            <name>warningActionStatus</name>
+            <description type="text">Register a target and send a update action status (warning). Verfiy if the updated action status is correct.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718096158" stop="1519718096395" status="passed">
+            <name>emptyReplyToProperty</name>
+            <description type="text">Tests missing reply to property in message header. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718096404" stop="1519718097809" status="passed">
+            <name>runningActionStatus</name>
+            <description type="text">Register a target and send a update action status (running). Verfiy if the updated action status is correct.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718097831" stop="1519718098061" status="passed">
+            <name>updateActionStatusWithInvalidActionId</name>
+            <description type="text">Tests invalid topic message header. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718098069" stop="1519718098295" status="passed">
+            <name>updateActionStatusWithNullContent</name>
+            <description type="text">Tests invalid null message content. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718098342" stop="1519718098569" status="passed">
+            <name>nullTenantHeader</name>
+            <description type="text">Tests null tenant message header. This message should forwarded to the deadletter queue</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Amqp Message Handler Service"/>
+        <label name="feature" value="Component Tests - Device Management Federation API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

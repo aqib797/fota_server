@@ -1,0 +1,6 @@
+org/eclipse/hawkbit/ui/dd/client/criteria/ItemIdClientCriterionTest.class
+org/eclipse/hawkbit/push/SpringSecurityAtmosphereInterceptorTest.class
+org/eclipse/hawkbit/ui/utils/SPUIComponentProviderTest.class
+org/eclipse/hawkbit/ui/dd/client/criteria/ViewClientCriterionTest.class
+org/eclipse/hawkbit/ui/dd/client/criteria/ViewComponentClientCriterionTest.class
+org/eclipse/hawkbit/ui/dd/client/criteria/CriterionTestHelper.class

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717802314" stop="1519717891062" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.TenantConfigurationManagementTest</name>
+    <test-cases>
+        <test-case start="1519717802314" stop="1519717802392" status="passed">
+            <name>storesWrongFormattedStringAsPollingInterval</name>
+            <description type="text">Test that an Exception is thrown, when an invalid formatted string is stored as PollingTime.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717802394" stop="1519717802411" status="passed">
+            <name>storeTenantConfigurationWhichIsNotDeclaredThrowsException</name>
+            <description type="text">Tenant configuration which is not declared throws exception</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717802413" stop="1519717802459" status="passed">
+            <name>wrongTenantConfigurationValueTypeThrowsException</name>
+            <description type="text">Tests that the get configuration throws exception in case the value cannot be automatically converted from String to Boolean</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717802461" stop="1519717802490" status="passed">
+            <name>updateTenantSpecifcConfiguration</name>
+            <description type="text">Tests that the tenant specific configuration can be updated</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717802492" stop="1519717802509" status="passed">
+            <name>verifyThatAllKeysAreDifferent</name>
+            <description type="text">Verifies that every TenenatConfiguraationKeyName exists only once</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717802511" stop="1519717802526" status="passed">
+            <name>storesIntegerWhenStringIsExpected</name>
+            <description type="text">Test that an Exception is thrown, when an integer is stored  but a string expected.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717802528" stop="1519717802550" status="passed">
+            <name>storesCorrectDurationAsPollingInterval</name>
+            <description type="text">Stores a correct formatted PollignTime and reads it again.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717802552" stop="1519717802568" status="passed">
+            <name>requestConfigValueWithWrongType</name>
+            <description type="text">Request a config value in a wrong Value</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717802570" stop="1519717802584" status="passed">
+            <name>storesIntegerWhenBooleanIsExpected</name>
+            <description type="text">Test that an Exception is thrown, when an integer is stored but a boolean expected.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717802586" stop="1519717802602" status="passed">
+            <name>storeTenantSpecificConfigurationAsString</name>
+            <description type="text">Tests that tenant specific configuration can be persisted and in case the tenant does not have specific configuration the default from environment is used instead.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717802604" stop="1519717802620" status="passed">
+            <name>deleteConfigurationReturnNullConfiguration</name>
+            <description type="text">Tests that a deletion of a tenant specific configuration deletes it from the database.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717802622" stop="1519717802637" status="passed">
+            <name>storesTooSmallDurationAsPollingInterval</name>
+            <description type="text">Test that an Exception is thrown, when an invalid formatted string is stored as PollingTime.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717802639" stop="1519717802653" status="passed">
+            <name>getTenantConfigurationKeyByName</name>
+            <description type="text">Get TenantConfigurationKeyByName</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717802655" stop="1519717802669" status="passed">
+            <name>storesIntegerWhenPollingIntervalIsExpected</name>
+            <description type="text">Test that an Exception is thrown, when an integer is stored as PollingTime.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717802671" stop="1519717802688" status="passed">
+            <name>storeAndUpdateTenantSpecificConfigurationAsBoolean</name>
+            <description type="text">Tests that the configuration value can be converted from String to Integer automatically</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Tenant Configuration Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718050407" stop="1519718056756" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.ddi.rest.resource.DdiRootControllerTest</name>
+    <test-cases>
+        <test-case start="1519718050407" stop="1519718051366" status="passed">
+            <name>tryToFinishAnUpdateProcessAfterItHasBeenFinished</name>
+            <description type="text">Controller trys to finish an update process after it has been finished by an error action status.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718051368" stop="1519718051622" status="passed">
+            <name>rootRsIpAddressNotStoredIfDisabled</name>
+            <description type="text">Ensures that the source IP address of the polling target is not stored in repository if disabled</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718051625" stop="1519718052404" status="passed">
+            <name>testActionHistoryNegativeInput</name>
+            <description type="text">Test to verify that entire action history is returned if the input value for actionHistory is -1, for getControllerDeploymentActionFeedback endpoint.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718052407" stop="1519718052741" status="passed">
+            <name>targetPollDoesNotModifyAuditData</name>
+            <description type="text">Ensures that target poll request does not change audit data on the entity.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718052743" stop="1519718052996" status="passed">
+            <name>pollWithModifiedGloablPollingTime</name>
+            <description type="text">Ensures that tenant specific polling time, which is saved in the db, is delivered to the controller.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718052998" stop="1519718053240" status="passed">
+            <name>targetCannotBeRegisteredIfTenantDoesNotExistsButWhenExists</name>
+            <description type="text">Ensures that targets cannot be created e.g. in plug'n play scenarios when tenant does not exists but can be created if the tenant exists.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718053242" stop="1519718053471" status="passed">
+            <name>rootRsPlugAndPlayIpAddress</name>
+            <description type="text">Ensures that the source IP address of the polling target is correctly stored in repository</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718053473" stop="1519718053596" status="passed">
+            <name>rootRsWithoutId</name>
+            <description type="text">Ensures that server returns a not found response in case of empty controlloer ID.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718053598" stop="1519718053931" status="passed">
+            <name>rootRsPrecommissioned</name>
+            <description type="text">Ensures that the target state machine of a precomissioned target switches from UNKNOWN to REGISTERED when the target polls for the first time.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718053933" stop="1519718054164" status="passed">
+            <name>rootRsPlugAndPlay</name>
+            <description type="text">Ensures that the system creates a new target in plug and play manner, i.e. target is authenticated but does not exist yet.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718054166" stop="1519718055095" status="passed">
+            <name>rootRsNotModified</name>
+            <description type="text">Ensures that etag check results in not modified response if provided etag by client is identical to entity in repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718055099" stop="1519718055900" status="passed">
+            <name>testActionHistoryCount</name>
+            <description type="text">Test to verify that only a specific count of messages are returned based on the input actionHistory for getControllerDeploymentActionFeedback endpoint.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718055903" stop="1519718056696" status="passed">
+            <name>testActionHistoryZeroInput</name>
+            <description type="text">Test to verify that a zero input value of actionHistory results in no action history appended for getControllerDeploymentActionFeedback endpoint.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Root Poll Resource"/>
+        <label name="feature" value="Component Tests - Direct Device Integration API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

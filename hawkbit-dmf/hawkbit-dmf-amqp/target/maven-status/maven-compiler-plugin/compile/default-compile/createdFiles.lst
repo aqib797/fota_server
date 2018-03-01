@@ -1,0 +1,14 @@
+org/eclipse/hawkbit/amqp/DefaultAmqpMessageSenderService.class
+org/eclipse/hawkbit/amqp/DmfApiConfiguration.class
+org/eclipse/hawkbit/amqp/BaseAmqpService.class
+org/eclipse/hawkbit/amqp/ConfigurableRabbitListenerContainerFactory.class
+org/eclipse/hawkbit/amqp/AmqpMessageHandlerService.class
+org/eclipse/hawkbit/amqp/AmqpMessageHandlerService$1.class
+org/eclipse/hawkbit/amqp/AmqpProperties.class
+org/eclipse/hawkbit/amqp/AmqpControllerAuthentication.class
+org/eclipse/hawkbit/amqp/AmqpDeadletterProperties.class
+org/eclipse/hawkbit/amqp/AmqpMessageSenderService.class
+org/eclipse/hawkbit/amqp/AmqpMessageDispatcherService.class
+org/eclipse/hawkbit/amqp/DelayedRequeueExceptionStrategy.class
+org/eclipse/hawkbit/amqp/AmqpConfiguration.class
+org/eclipse/hawkbit/amqp/AmqpAuthenticationMessageHandler.class

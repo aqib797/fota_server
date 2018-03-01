@@ -1,0 +1,8 @@
+org/eclipse/hawkbit/security/AbstractHttpControllerAuthenticationFilter.class
+org/eclipse/hawkbit/security/HttpControllerPreAuthenticateSecurityTokenFilter.class
+org/eclipse/hawkbit/security/HttpControllerPreAuthenticatedSecurityHeaderFilter.class
+org/eclipse/hawkbit/security/DosFilter.class
+org/eclipse/hawkbit/security/ControllerTenantAwareAuthenticationDetailsSource.class
+org/eclipse/hawkbit/security/HttpControllerPreAuthenticateAnonymousDownloadFilter.class
+org/eclipse/hawkbit/security/HttpControllerPreAuthenticatedGatewaySecurityTokenFilter.class
+org/eclipse/hawkbit/security/HttpDownloadAuthenticationFilter.class

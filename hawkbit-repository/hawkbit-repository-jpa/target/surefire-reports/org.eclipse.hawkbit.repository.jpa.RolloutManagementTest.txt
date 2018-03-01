@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.hawkbit.repository.jpa.RolloutManagementTest
+-------------------------------------------------------------------------------
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.512 sec - in org.eclipse.hawkbit.repository.jpa.RolloutManagementTest

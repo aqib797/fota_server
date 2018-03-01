@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717736571" stop="1519717890996" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.autoassign.AutoAssignCheckerTest</name>
+    <test-cases>
+        <test-case start="1519717736571" stop="1519717737260" status="passed">
+            <name>checkAutoAssignWithFailures</name>
+            <description type="text">Test auto assignment of an incomplete DS to filtered targets, that causes failures</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717737263" stop="1519717737861" status="passed">
+            <name>checkAutoAssign</name>
+            <description type="text">Test auto assignment of a DS to filtered targets</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Auto assign checker"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

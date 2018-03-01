@@ -1,0 +1,3 @@
+org/eclipse/hawkbit/api/Base62UtilTest.class
+org/eclipse/hawkbit/api/PropertyBasedArtifactUrlHandlerTest.class
+org/eclipse/hawkbit/cache/DefaultDownloadIdCacheTest.class

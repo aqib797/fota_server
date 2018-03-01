@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717856213" stop="1519717891074" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.DeploymentManagementTest</name>
+    <test-cases>
+        <test-case start="1519717856213" stop="1519717859483" status="passed">
+            <name>multiAssigmentHistoryOverMultiplePagesResultsInTwoActiveAction</name>
+            <description type="text">Test verifies that an assignment with automatic cancelation works correctly even if the update is split into multiple partitions on the database.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717859486" stop="1519717859511" status="passed">
+            <name>checkThatDsRevisionsIsNotChangedWithTargetAssignment</name>
+            <description type="text">The test verfies that the DS itself is not changed because of an target assignment which is a relationship but not a changed on the entity itself..</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717859514" stop="1519717859562" status="passed">
+            <name>failDistributionSetAssigmentThatIsNotComplete</name>
+            <description type="text">Test that it is not possible to assign a distribution set that is not complete.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717859565" stop="1519717859588" status="passed">
+            <name>findActionWithLazyDetails</name>
+            <description type="text">Test verifies that the repistory retrieves the action including all defined (lazy) details.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717859600" stop="1519717859727" status="passed">
+            <name>entityQueriesReferringToNotExistingEntitiesThrowsException</name>
+            <description type="text">Verifies that management queries react as specfied on calls for non existing entities  by means of throwing EntityNotFoundException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717859730" stop="1519717859782" status="passed">
+            <name>manualCancelWithMultipleAssignmentsCancelMiddleOneFirst</name>
+            <description type="text">Cancels multiple active actions on a target. Expected behaviour is that with two active actions after canceling the first active action the system switched to second one. After canceling this one also the target goes back to IN_SYNC as no open action is left.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717859784" stop="1519717859857" status="passed">
+            <name>assignDistributionSet2Targets</name>
+            <description type="text">Simple deployment or distribution set to target assignment test.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717859860" stop="1519717859908" status="passed">
+            <name>manualCancelWithMultipleAssignmentsCancelLastOneFirst</name>
+            <description type="text">Cancels multiple active actions on a target. Expected behaviour is that with two active actions after canceling the second active action the first one is still running as it is not touched by the cancelation. After canceling the first one also the target goes back to IN_SYNC as no open action is left.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717859911" stop="1519717860010" status="passed">
+            <name>deleteDistributionSet</name>
+            <description type="text">Deletes distribution set. Expected behaviour is that a soft delete is performed if the DS is assigned to a target and a hard delete if the DS is not in use at all.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717860012" stop="1519717860064" status="passed">
+            <name>assignDistributionSetToTagThatDoesNotExistThrowsException</name>
+            <description type="text">Ensures that tag to distribution set assignment that does not exist will cause EntityNotFoundException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717860068" stop="1519717860117" status="passed">
+            <name>forceQuitNotAllowedThrowsException</name>
+            <description type="text">Force Quit an not canceled Assignment. Expected behaviour is that the action can not be force quit and there is thrown an exception.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717860120" stop="1519717860142" status="passed">
+            <name>forceAlreadyForcedActionNothingChanges</name>
+            <description type="text">Tests the switch from a hard to hard update by API, e.g. which in fact should not change anything.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717860145" stop="1519717860799" status="passed">
+            <name>assignedDistributionSet</name>
+            <description type="text">Simple offline deployment of a distribution set to a list of targets. Verifies that offline assigment is correctly executed for targets that do not have a running update already. Those are ignored.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717860802" stop="1519717860822" status="passed">
+            <name>forceSoftAction</name>
+            <description type="text">Tests the switch from a soft to hard update by API</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717860825" stop="1519717860868" status="passed">
+            <name>alternatingAssignmentAndAddUpdateActionStatus</name>
+            <description type="text">Testing if changing target and the status without refreshing the entities from the DB (e.g. concurrent changes from UI and from controller) works</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717860871" stop="1519717860913" status="passed">
+            <name>forceQuitSetActionToInactive</name>
+            <description type="text">Force Quit an Assignment. Expected behaviour is that the action is canceled and is marked as deleted. The assigned Software module</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717860915" stop="1519717860937" status="passed">
+            <name>findActionStatusByActionId</name>
+            <description type="text">Test verifies that action-states of an action are found by using id-based search.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717860940" stop="1519717860966" status="passed">
+            <name>findMessagesByActionStatusId</name>
+            <description type="text">Test verifies that messages of an action-status are found by using id-based search.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717860969" stop="1519717860988" status="passed">
+            <name>findActionByTargetId</name>
+            <description type="text">Test verifies that actions of a target are found by using id-based search.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717860991" stop="1519717861103" status="passed">
+            <name>assignDistributionSetAndAddFinishedActionStatus</name>
+            <description type="text">Multiple deployments or distribution set to target assignment test including finished response from target/controller. Expected behaviour is that in case of OK finished update the target will go to IN_SYNC status and installed DS is set to the assigned DS entry.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717861106" stop="1519717861873" status="passed">
+            <name>assigneDistributionSetAndAutoCloseActiveActions</name>
+            <description type="text">Verifies that if an account is set to action autoclose running actions in case of a new assigned set get closed and set to CANCELED.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717861876" stop="1519717861987" status="passed">
+            <name>nonExistingEntityAccessReturnsNotPresent</name>
+            <description type="text">Verifies that management get access react as specfied on calls for non existing entities by means of Optional not present.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717861990" stop="1519717862097" status="passed">
+            <name>deletesTargetsAndVerifyCascadeDeletes</name>
+            <description type="text">Deletes multiple targets and verfies that all related metadata is also deleted.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717862102" stop="1519717862975" status="passed">
+            <name>mutipleDeployments</name>
+            <description type="text">Multiple deployments or distribution set to target assignment test. Expected behaviour is that a new deployment overides unfinished old one which are canceled as part of the operation.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Deployment Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

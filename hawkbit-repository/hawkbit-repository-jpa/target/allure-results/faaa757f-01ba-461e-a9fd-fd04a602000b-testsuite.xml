@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717835485" stop="1519717891083" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.TargetManagementSearchTest</name>
+    <test-cases>
+        <test-case start="1519717835485" stop="1519717835715" status="passed">
+            <name>targetSearchWithVariousFilterCombinationsAndOrderByDistributionSet</name>
+            <description type="text">Tests the correct order of targets based on selected distribution set. The system expects to have an order based on installed, assigned DS.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717835717" stop="1519717836259" status="passed">
+            <name>targetSearchWithVariousFilterCombinations</name>
+            <description type="text">Tests different parameter combinations for target search operations. That includes both the test itself, as a count operation with the same filters and query definitions by RSQL (named and un-named).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717836262" stop="1519717836292" status="passed">
+            <name>findTargetByAssignedDistributionSet</name>
+            <description type="text">Verfies that targets with given assigned DS are returned from repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717836294" stop="1519717836345" status="passed">
+            <name>targetSearchWithOverdueFilterAndOrderByDistributionSet</name>
+            <description type="text">Tests the correct order of targets with applied overdue filter based on selected distribution set. The system expects to have an order based on installed, assigned DS.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717836347" stop="1519717836405" status="passed">
+            <name>findTargetByInstalledDistributionSet</name>
+            <description type="text">Verfies that targets with given installed DS are returned from repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717836408" stop="1519717836451" status="passed">
+            <name>findTargetWithoutAssignedDistributionSet</name>
+            <description type="text">Verifies that targets without given assigned DS are returned from repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Target Management Searches"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

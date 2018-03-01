@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717987255" stop="1519717987912" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.mgmt.rest.resource.MgmtDownloadResourceTest</name>
+    <test-cases>
+        <test-case start="1519717987255" stop="1519717987726" status="passed">
+            <name>testNoDownloadIdAvailable</name>
+            <description type="text">This test verifies the call of download artifact without a valid download id fails.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717987728" stop="1519717987790" status="passed">
+            <name>testDownload</name>
+            <description type="text">This test verifies the call of download artifact works and the download id will be removed.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Download Resource"/>
+        <label name="feature" value="Component Tests - Management API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

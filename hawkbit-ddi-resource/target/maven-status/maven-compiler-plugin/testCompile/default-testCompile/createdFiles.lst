@@ -1,0 +1,11 @@
+org/eclipse/hawkbit/ddi/rest/resource/DdiArtifactDownloadTest$DownloadTestConfiguration.class
+org/eclipse/hawkbit/ddi/rest/resource/DdiDeploymentBaseTest$ActionStatusCondition.class
+org/eclipse/hawkbit/ddi/rest/resource/DdiArtifactDownloadTest.class
+org/eclipse/hawkbit/ddi/rest/resource/DosFilterTest.class
+org/eclipse/hawkbit/ddi/rest/resource/DdiArtifactDownloadTest$1.class
+org/eclipse/hawkbit/ddi/rest/resource/DdiConfigDataTest.class
+org/eclipse/hawkbit/ddi/rest/resource/DdiArtifactDownloadTest$Listener.class
+org/eclipse/hawkbit/ddi/rest/resource/AbstractDDiApiIntegrationTest.class
+org/eclipse/hawkbit/ddi/rest/resource/DdiCancelActionTest.class
+org/eclipse/hawkbit/ddi/rest/resource/DdiRootControllerTest.class
+org/eclipse/hawkbit/ddi/rest/resource/DdiDeploymentBaseTest.class

@@ -1,0 +1,4 @@
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-rabbitmq-test/src/main/java/org/eclipse/hawkbit/rabbitmq/test/AbstractAmqpIntegrationTest.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-rabbitmq-test/src/main/java/org/eclipse/hawkbit/rabbitmq/test/AmqpTestConfiguration.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-rabbitmq-test/src/main/java/org/eclipse/hawkbit/rabbitmq/test/RabbitMqSetupService.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-rabbitmq-test/src/main/java/org/eclipse/hawkbit/rabbitmq/test/listener/TestRabbitListener.java

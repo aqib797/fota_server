@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717967116" stop="1519717987874" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.mgmt.rest.resource.MgmtSoftwareModuleTypeResourceTest</name>
+    <test-cases>
+        <test-case start="1519717967116" stop="1519717967254" status="passed">
+            <name>createSoftwareModuleTypes</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/softwaremoduletypes POST requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717967257" stop="1519717967286" status="passed">
+            <name>updateSoftwareModuleTypeOnlyDescriptionAndNameUntouched</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/softwaremoduletypes/{ID} PUT requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717967289" stop="1519717967318" status="passed">
+            <name>getSoftwareModuleTypesWithPagingLimitRequestParameter</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/softwaremoduletypes GET requests with paging.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717967321" stop="1519717967350" status="passed">
+            <name>getSoftwareModuleType</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/softwaremoduletypes/{ID} GET requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717967353" stop="1519717967405" status="passed">
+            <name>invalidRequestsOnSoftwaremoduleTypesResource</name>
+            <description type="text">Ensures that the server is behaving as expected on invalid requests (wrong media type, wrong ID etc.).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717967408" stop="1519717967450" status="passed">
+            <name>getSoftwareModuleTypesSortedByMaxAssignments</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/softwaremoduletypes GET requests with sorting by MAXASSIGNMENTS field.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717967453" stop="1519717967478" status="passed">
+            <name>deleteSoftwareModuleTypeThatDoesNotExistLeadsToNotFound</name>
+            <description type="text">Ensures that module type deletion request to API on an entity that does not exist results in NOT_FOUND.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717967481" stop="1519717967524" status="passed">
+            <name>getSoftwareModuleTypes</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/softwaremoduletypes GET requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717967529" stop="1519717967557" status="passed">
+            <name>getSoftwareModuleTypesWithPagingLimitAndOffsetRequestParameter</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/softwaremoduletypes GET requests with paging.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717967560" stop="1519717967589" status="passed">
+            <name>deleteSoftwareModuleTypeUnused</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/softwaremoduletypes/{ID} DELETE requests (hard delete scenario).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717967592" stop="1519717967623" status="passed">
+            <name>searchSoftwareModuleTypeRsql</name>
+            <description type="text">Search erquest of software module types.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717967626" stop="1519717967681" status="passed">
+            <name>deleteSoftwareModuleTypeUsed</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/softwaremoduletypes/{ID} DELETE requests (soft delete scenario).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717967684" stop="1519717967710" status="passed">
+            <name>getSoftwareModuleTypesWithoutAddtionalRequestParameters</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/softwaremoduletypes GET requests with paging.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717967714" stop="1519717967749" status="passed">
+            <name>createSoftwareModuleTypesInvalidAssignmentBadRequest</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/softwaremoduletypes POST requests when max assignment is smaller than 1</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Software Module Type Resource"/>
+        <label name="feature" value="Component Tests - Management API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

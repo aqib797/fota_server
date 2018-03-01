@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717903228" stop="1519717903439" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.security.ControllerPreAuthenticatedSecurityHeaderFilterTest</name>
+    <test-cases>
+        <test-case start="1519717903229" stop="1519717903422" status="passed">
+            <name>testIssuerHashBasedAuthenticationWithUnknownHash</name>
+            <description type="text">Tests the filter for issuer hash based authentication with unknown hash</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21567@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717903423" stop="1519717903425" status="passed">
+            <name>testIssuerHashBasedAuthenticationWithSingleKnownHash</name>
+            <description type="text">Tests the filter for issuer hash based authentication with a single known hash</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21567@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717903427" stop="1519717903428" status="passed">
+            <name>testIssuerHashBasedAuthenticationWithMultipleKnownHashes</name>
+            <description type="text">Tests the filter for issuer hash based authentication with multiple known hashes</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21567@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717903429" stop="1519717903437" status="passed">
+            <name>useDifferentValuesForIssuerHashHeader</name>
+            <description type="text">Tests different values for issuer hash header and inspects the credentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21567@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Issuer hash based authentication"/>
+        <label name="feature" value="Unit Tests - Security"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717904348" stop="1519717904447" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.security.PreAuthTokenSourceTrustAuthenticationProviderTest</name>
+    <test-cases>
+        <test-case start="1519717904353" stop="1519717904356" status="passed">
+            <name>principalAndCredentialsNotTheSameThrowsAuthenticationException</name>
+            <description type="text">Testing in case the containing controllerId in the URI request path does not accord with the controllerId in the request header.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21595@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717904372" stop="1519717904385" status="passed">
+            <name>priniciapAndCredentialsAreTheSameButSourceIpRequestNotMatching</name>
+            <description type="text">Testing that the controllerId in the URI request match with the controllerId in the request header but the request are not coming from a trustful source.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21595@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717904386" stop="1519717904387" status="passed">
+            <name>principalAndCredentialsAreTheSameSourceIpListNotMatches</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21595@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717904388" stop="1519717904443" status="passed">
+            <name>principalAndCredentialsAreTheSameWithNoSourceIpCheckIsSuccessful</name>
+            <description type="text">Testing that the controllerId within the URI request path is the same with the controllerId within the request header and no source IP check is in place.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21595@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717904444" stop="1519717904444" status="passed">
+            <name>priniciapAndCredentialsAreTheSameAndSourceIpIsWithinList</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21595@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717904445" stop="1519717904446" status="passed">
+            <name>priniciapAndCredentialsAreTheSameAndSourceIpIsTrusted</name>
+            <description type="text">Testing that the controllerId in the URI request match with the controllerId in the request header and the source Ip is matching the allowed remote IP address.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21595@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="PreAuthToken Source TrustAuthentication Provider Test"/>
+        <label name="feature" value="Unit Tests - Security"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

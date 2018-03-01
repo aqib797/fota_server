@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717880601" stop="1519717890956" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.event.remote.entity.ActionEventTest</name>
+    <test-cases>
+        <test-case start="1519717880601" stop="1519717880736" status="passed">
+            <name>testActionUpdatedEvent</name>
+            <description type="text">Verifies that the action entity reloading by remote updated works</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717880738" stop="1519717880765" status="passed">
+            <name>testActionCreatedEvent</name>
+            <description type="text">Verifies that the action entity reloading by remote created works</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Test ActionCreatedEvent and ActionUpdatedEvent"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

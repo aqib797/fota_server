@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718006153" stop="1519718056781" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.ddi.rest.resource.DdiArtifactDownloadTest</name>
+    <test-cases>
+        <test-case start="1519718006160" stop="1519718007425" status="passed">
+            <name>downloadMd5sumThroughControllerApi</name>
+            <description type="text">Tests valid MD5SUm file downloads through the artifact resource by identifying the artifact by ID.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718007440" stop="1519718009812" status="passed">
+            <name>rangeDownloadArtifact</name>
+            <description type="text">Test various HTTP range requests for artifact download, e.g. chunk download or download resume.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718009815" stop="1519718010113" status="passed">
+            <name>downloadArtifactThroughFileName</name>
+            <description type="text">Tests valid downloads through the artifact resource by identifying the artifact not by ID but file name.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718010116" stop="1519718010283" status="passed">
+            <name>invalidRequestsOnArtifactResource</name>
+            <description type="text">Tests non allowed requests on the artifact ressource, e.g. invalid URI, wrong if-match, wrong command.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Artifact Download Resource"/>
+        <label name="feature" value="Component Tests - Direct Device Integration API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717741753" stop="1519717890897" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.HawkBitEclipseLinkJpaDialectTest</name>
+    <test-cases>
+        <test-case start="1519717741753" stop="1519717742520" status="passed">
+            <name>runtimeExceptionWithNumberFormatExceptionIsNull</name>
+            <description type="text">Use Case: RuntimeException that could not be mapped by EclipseLinkJpaDialect directly. Cause of RuntimeException is not an SQLException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717742520" stop="1519717742527" status="passed">
+            <name>jpaOptimisticLockExceptionIsConcurrencyFailureException</name>
+            <description type="text">Use Case: PersistenceException that can be mapped by EclipseLinkJpaDialect into corresponding DataAccessException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717742527" stop="1519717742533" status="passed">
+            <name>jpaSystemExceptionWithNumberFormatExceptionIsNull</name>
+            <description type="text">Use Case: PersistenceException that could not be mapped by EclipseLinkJpaDialect directly but instead is wrapped into JpaSystemException. Cause of PersistenceException is not an SQLException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717742533" stop="1519717742534" status="passed">
+            <name>runtimeExceptionWithSqlDeadLockExceptionIsConcurrencyFailureException</name>
+            <description type="text">Use Case: RuntimeException that could not be mapped by EclipseLinkJpaDialect directly. Cause of RuntimeException is an SQLException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717742534" stop="1519717742534" status="passed">
+            <name>jpaSystemExceptionWithSqlDeadLockExceptionIsConcurrencyFailureException</name>
+            <description type="text">Use Case: PersistenceException that could not be mapped by EclipseLinkJpaDialect directly but instead is wrapped into JpaSystemException. Cause of PersistenceException is an SQLException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Exception handling"/>
+        <label name="feature" value="Unit Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

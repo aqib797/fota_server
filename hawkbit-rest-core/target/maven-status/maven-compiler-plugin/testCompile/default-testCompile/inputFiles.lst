@@ -1,0 +1,7 @@
+/home/apoorva/hawkbit/hawkbit-rest-core/src/test/java/org/eclipse/hawkbit/rest/AbstractRestIntegrationTest.java
+/home/apoorva/hawkbit/hawkbit-rest-core/src/test/java/org/eclipse/hawkbit/rest/filter/ExcludePathAwareShallowETagFilterTest.java
+/home/apoorva/hawkbit/hawkbit-rest-core/src/test/java/org/eclipse/hawkbit/rest/util/MockMvcResultPrinter.java
+/home/apoorva/hawkbit/hawkbit-rest-core/src/test/java/org/eclipse/hawkbit/rest/util/SuccessCondition.java
+/home/apoorva/hawkbit/hawkbit-rest-core/src/test/java/org/eclipse/hawkbit/rest/util/JsonBuilder.java
+/home/apoorva/hawkbit/hawkbit-rest-core/src/test/java/org/eclipse/hawkbit/rest/json/model/ExceptionInfoTest.java
+/home/apoorva/hawkbit/hawkbit-rest-core/src/test/java/org/eclipse/hawkbit/rest/util/SortUtilityTest.java

@@ -1,0 +1,9 @@
+org/eclipse/hawkbit/rest/util/MockMvcResultPrinter.class
+org/eclipse/hawkbit/rest/filter/ExcludePathAwareShallowETagFilterTest.class
+org/eclipse/hawkbit/rest/util/MockMvcResultPrinter$ConsolePrintingResultHandler$1.class
+org/eclipse/hawkbit/rest/util/JsonBuilder.class
+org/eclipse/hawkbit/rest/AbstractRestIntegrationTest.class
+org/eclipse/hawkbit/rest/util/SuccessCondition.class
+org/eclipse/hawkbit/rest/json/model/ExceptionInfoTest.class
+org/eclipse/hawkbit/rest/util/SortUtilityTest.class
+org/eclipse/hawkbit/rest/util/MockMvcResultPrinter$ConsolePrintingResultHandler.class

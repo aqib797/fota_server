@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="/home/apoorva/hawkbit/hawkbit-ui/target/classes/VAADIN/widgetsets">
+    <fileset includes="**/*" dir="/home/apoorva/hawkbit/hawkbit-ui/src/main/resources/VAADIN/widgetsets"/>
+  </copy>
+  <copy file="/home/apoorva/hawkbit/hawkbit-ui/src/main/resources/VAADIN/themes/hawkbit/styles.css" tofile="/home/apoorva/hawkbit/hawkbit-ui/target/classes/VAADIN/themes/hawkbit/styles.css"/>
+</target>
+</project>

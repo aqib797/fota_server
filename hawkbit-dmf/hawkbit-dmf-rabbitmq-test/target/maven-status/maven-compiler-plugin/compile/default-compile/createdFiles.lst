@@ -1,0 +1,5 @@
+org/eclipse/hawkbit/rabbitmq/test/AmqpTestConfiguration.class
+org/eclipse/hawkbit/rabbitmq/test/RabbitMqSetupService$AlivenessException.class
+org/eclipse/hawkbit/rabbitmq/test/AbstractAmqpIntegrationTest.class
+org/eclipse/hawkbit/rabbitmq/test/listener/TestRabbitListener.class
+org/eclipse/hawkbit/rabbitmq/test/RabbitMqSetupService.class

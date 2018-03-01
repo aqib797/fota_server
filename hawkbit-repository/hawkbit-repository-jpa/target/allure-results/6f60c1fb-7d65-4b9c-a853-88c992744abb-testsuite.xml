@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717873056" stop="1519717891040" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.event.remote.entity.TargetEventTest</name>
+    <test-cases>
+        <test-case start="1519717873056" stop="1519717873462" status="passed">
+            <name>testTargetCreatedEvent</name>
+            <description type="text">Verifies that the target entity reloading by remote created event works</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717873463" stop="1519717873484" status="passed">
+            <name>testTargetUpdatedEvent</name>
+            <description type="text">Verifies that the target entity reloading by remote updated event works</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717873486" stop="1519717873508" status="passed">
+            <name>testCancelTargetAssignmentEvent</name>
+            <description type="text">Verifies that cancel target assignment event works</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Test TargetCreatedEvent, TargetUpdatedEvent and CancelTargetAssignmentEvent"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

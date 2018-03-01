@@ -1,0 +1,83 @@
+<!--
+
+    Copyright (c) 2015 Bosch Software Innovations GmbH and others.
+
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <parent>
+      <groupId>org.eclipse.hawkbit</groupId>
+      <artifactId>hawkbit-runtime-parent</artifactId>
+      <version>0.2.0-SNAPSHOT</version>
+   </parent>
+   <artifactId>hawkbit-update-server</artifactId>
+   <name>hawkBit :: Runtime :: Update Server</name>
+
+   <build>
+      <plugins>
+         <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <executions>
+               <execution>
+                  <goals>
+                     <goal>repackage</goal>
+                  </goals>
+                  <configuration>
+                     <outputDirectory>${baseDir}</outputDirectory>
+                     <addResources>false</addResources>
+                     <mainClass>org.eclipse.hawkbit.app.Start</mainClass>
+                     <layout>JAR</layout>
+                  </configuration>
+               </execution>
+            </executions>
+         </plugin>
+      </plugins>
+      <resources>
+         <resource>
+            <directory>src/main/resources</directory>
+         </resource>
+         <resource>
+            <directory>cf</directory>
+            <filtering>true</filtering>
+            <targetPath>${project.build.directory}</targetPath>
+            <includes>
+               <include>manifest.yml</include>
+               <include>manifest-simple.yml</include>
+            </includes>
+         </resource>
+      </resources>
+   </build>
+
+   <dependencies>
+      <dependency>
+         <groupId>org.eclipse.hawkbit</groupId>
+         <artifactId>hawkbit-boot-starter</artifactId>
+         <version>${project.version}</version>
+      </dependency>
+      <dependency>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-starter-actuator</artifactId>
+      </dependency>
+      <dependency>
+         <groupId>com.h2database</groupId>
+         <artifactId>h2</artifactId>
+      </dependency>
+<<<<<<< HEAD
+      <dependency>
+	 <groupId>org.mariadb.jdbc</groupId>
+	 <artifactId>mariadb-java-client</artifactId>
+	 <scope>compile</scope>
+      </dependency>
+=======
+
+>>>>>>> c80b5b5c09c23126118b1e114cc92be86baba850
+   </dependencies>
+
+</project>

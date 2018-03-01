@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717799242" stop="1519717891092" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.rsql.RSQLTargetFieldTest</name>
+    <test-cases>
+        <test-case start="1519717799242" stop="1519717799439" status="passed">
+            <name>testFilterByParameterUpdateStatus</name>
+            <description type="text">Test filter target by status</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717799440" stop="1519717799493" status="passed">
+            <name>testFilterByTag</name>
+            <description type="text">Test filter target by tag</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717799495" stop="1519717799547" status="passed">
+            <name>testFilterByParameterDescription</name>
+            <description type="text">Test filter target by description</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717799549" stop="1519717799598" status="passed">
+            <name>testFilterByLastTargetQuery</name>
+            <description type="text">Test filter target by lastTargetQuery</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717799600" stop="1519717799648" status="passed">
+            <name>testFilterByAssignedDsVersion</name>
+            <description type="text">Test filter target by assigned ds version</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717799650" stop="1519717799699" status="passed">
+            <name>testFilterByAssignedDsName</name>
+            <description type="text">Test filter target by assigned ds name</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717799701" stop="1519717799745" status="passed">
+            <name>testFilterByParameterName</name>
+            <description type="text">Test filter target by name</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717799747" stop="1519717799798" status="passed">
+            <name>testFilterByAttribute</name>
+            <description type="text">Test filter target by attribute</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717799800" stop="1519717799847" status="passed">
+            <name>testFilterByParameterId</name>
+            <description type="text">Test filter target by (controller) id</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717799849" stop="1519717799895" status="passed">
+            <name>testFilterByParameterControllerId</name>
+            <description type="text">Test filter target by controller id</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="RSQL filter target"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

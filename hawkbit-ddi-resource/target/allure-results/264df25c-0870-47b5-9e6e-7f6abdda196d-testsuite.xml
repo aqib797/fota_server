@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718032170" stop="1519718056771" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.ddi.rest.resource.DosFilterTest</name>
+    <test-cases>
+        <test-case start="1519718032170" stop="1519718032749" status="passed">
+            <name>putPostFloddingAttackThatisPrevented</name>
+            <description type="text">Ensures that a WRITE DoS attempt is blocked </description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718032751" stop="1519718033453" status="passed">
+            <name>unacceptableGetLoadButOnWhitelistIPv4</name>
+            <description type="text">Ensures that an assumed READ DoS attempt is not blocked as the client (with IPv4 address) is on a whitelist</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718033455" stop="1519718034020" status="passed">
+            <name>unacceptableGetLoadButOnWhitelistIPv6</name>
+            <description type="text">Ensures that an assumed READ DoS attempt is not blocked as the client (with IPv6 address) is on a whitelist</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718034022" stop="1519718039854" status="passed">
+            <name>acceptablePutPostLoad</name>
+            <description type="text">Ensures that a relatively high number of WRITE requests is allowed if it is below the DoS detection threshold</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718039857" stop="1519718039969" status="passed">
+            <name>getFloddingAttackThatisPrevented</name>
+            <description type="text">Ensures that a READ DoS attempt is blocked </description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718039971" stop="1519718043458" status="passed">
+            <name>acceptableGetLoad</name>
+            <description type="text">Ensures that a relatively high number of READ requests is allowed if it is below the DoS detection threshold</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718043461" stop="1519718043495" status="passed">
+            <name>blackListedClientIsForbidden</name>
+            <description type="text">Ensures that clients that are on the blacklist are forbidded </description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Denial of Service protection filter"/>
+        <label name="feature" value="Component Tests - REST Security"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

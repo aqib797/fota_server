@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717685422" stop="1519717685644" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.util.IpUtilTest</name>
+    <test-cases>
+        <test-case start="1519717685422" stop="1519717685502" status="passed">
+            <name>getRemoteAddrFromXForwardedForHeader</name>
+            <description type="text">Tests create uri from x forward header</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20314@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717685503" stop="1519717685503" status="passed">
+            <name>testCreateInvalidUri</name>
+            <description type="text">Tests create invalid uri</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20314@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717685505" stop="1519717685505" status="passed">
+            <name>testCreateAmqpUri</name>
+            <description type="text">Tests create amqp uri ipv4 and ipv6</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20314@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717685506" stop="1519717685507" status="passed">
+            <name>getRemoteAddrFromRequestIfForwaredHeaderNotPresent</name>
+            <description type="text">Tests create uri from request</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20314@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717685508" stop="1519717685508" status="passed">
+            <name>testCreateHttpUri</name>
+            <description type="text">Tests create http uri ipv4 and ipv6</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20314@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717685509" stop="1519717685510" status="passed">
+            <name>maskRemoteAddrIfDisabled</name>
+            <description type="text">Tests create uri from request with masked IP when IP tracking is disabled</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20314@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="IP Util Test"/>
+        <label name="feature" value="Unit Tests - Security"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

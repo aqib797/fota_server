@@ -1,0 +1,3 @@
+/home/apoorva/hawkbit/hawkbit-core/src/test/java/org/eclipse/hawkbit/api/Base62UtilTest.java
+/home/apoorva/hawkbit/hawkbit-core/src/test/java/org/eclipse/hawkbit/cache/DefaultDownloadIdCacheTest.java
+/home/apoorva/hawkbit/hawkbit-core/src/test/java/org/eclipse/hawkbit/api/PropertyBasedArtifactUrlHandlerTest.java

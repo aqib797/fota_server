@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717691957" stop="1519717692049" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.artifact.repository.ArtifactFilesystemRepositoryTest</name>
+    <test-cases>
+        <test-case start="1519717691957" stop="1519717692029" status="passed">
+            <name>deleteStoredArtifactBySHA1Hash</name>
+            <description type="text">Verfies that an artifact can be deleted in the file-system repository</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20406@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717692030" stop="1519717692031" status="passed">
+            <name>getStoredArtifactBasedOnSHA1Hash</name>
+            <description type="text">Verfies that an artifact can be successfully stored in the file-system repository</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20406@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717692031" stop="1519717692037" status="passed">
+            <name>deleteStoredArtifactOfTenant</name>
+            <description type="text">Verfies that all artifacts of a tenant can be deleted in the file-system repository</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20406@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717692038" stop="1519717692045" status="passed">
+            <name>storeSuccessfully</name>
+            <description type="text">Verfies that an artifact can be successfully stored in the file-system repository</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20406@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717692046" stop="1519717692047" status="passed">
+            <name>deleteArtifactWhichDoesNotExistsBySHA1HashWithoutException</name>
+            <description type="text">Verfies that an artifact which does not exists is deleted quietly in the file-system repository</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20406@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Test storing artifact binaries in the file-system"/>
+        <label name="feature" value="Unit Tests - Artifact File System Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

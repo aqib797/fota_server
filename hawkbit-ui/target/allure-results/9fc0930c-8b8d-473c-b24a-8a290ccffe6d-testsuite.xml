@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718175239" stop="1519718179332" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.push.SpringSecurityAtmosphereInterceptorTest</name>
+    <test-cases>
+        <test-case start="1519718175245" stop="1519718175326" status="passed">
+            <name>afterAtmosphereRequestSecurityContextGetsCleared</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718175345" stop="1519718175382" status="passed">
+            <name>inspectRetrievesSetsSecurityContextFromRequestToThreadLocal</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Push Security"/>
+        <label name="feature" value="Unit Tests - Management UI"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

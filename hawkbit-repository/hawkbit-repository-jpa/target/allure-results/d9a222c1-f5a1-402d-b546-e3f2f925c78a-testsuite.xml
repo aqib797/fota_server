@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717775580" stop="1519717891004" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.rsql.RSQLDistributionSetFieldTest</name>
+    <test-cases>
+        <test-case start="1519717775580" stop="1519717775773" status="passed">
+            <name>testFilterByType</name>
+            <description type="text">Test filter distribution set by type</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717775775" stop="1519717775846" status="passed">
+            <name>testFilterByTag</name>
+            <description type="text">Test filter distribution set by tag</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717775848" stop="1519717775915" status="passed">
+            <name>testFilterByParameterDescription</name>
+            <description type="text">Test filter distribution set by description</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717775917" stop="1519717776025" status="passed">
+            <name>testFilterByMetadata</name>
+            <description type="text"></description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717776027" stop="1519717776099" status="passed">
+            <name>testFilterByParameterName</name>
+            <description type="text">Test filter distribution set by name</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717776100" stop="1519717776180" status="passed">
+            <name>testFilterByAttribute</name>
+            <description type="text">Test filter distribution set by complete property</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717776182" stop="1519717776243" status="passed">
+            <name>testFilterByParameterId</name>
+            <description type="text">Test filter distribution set by id</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717776245" stop="1519717776311" status="passed">
+            <name>testFilterByParameterVersion</name>
+            <description type="text">Test filter distribution set by version</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="RSQL filter distribution set"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,6 @@
+/home/apoorva/hawkbit/hawkbit-ui/src/test/java/org/eclipse/hawkbit/ui/utils/SPUIComponentProviderTest.java
+/home/apoorva/hawkbit/hawkbit-ui/src/test/java/org/eclipse/hawkbit/ui/dd/client/criteria/ItemIdClientCriterionTest.java
+/home/apoorva/hawkbit/hawkbit-ui/src/test/java/org/eclipse/hawkbit/ui/dd/client/criteria/ViewClientCriterionTest.java
+/home/apoorva/hawkbit/hawkbit-ui/src/test/java/org/eclipse/hawkbit/ui/dd/client/criteria/CriterionTestHelper.java
+/home/apoorva/hawkbit/hawkbit-ui/src/test/java/org/eclipse/hawkbit/push/SpringSecurityAtmosphereInterceptorTest.java
+/home/apoorva/hawkbit/hawkbit-ui/src/test/java/org/eclipse/hawkbit/ui/dd/client/criteria/ViewComponentClientCriterionTest.java

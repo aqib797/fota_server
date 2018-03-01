@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.hawkbit.ddi.rest.resource.DdiCancelActionTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.137 sec - in org.eclipse.hawkbit.ddi.rest.resource.DdiCancelActionTest

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717841906" stop="1519717890928" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.tenancy.MultiTenancyEntityTest</name>
+    <test-cases>
+        <test-case start="1519717841906" stop="1519717842017" status="passed">
+            <name>createMultipleTargetsWithSameIdForDifferentTenant</name>
+            <description type="text">Ensures that multiple targets with same controller-ID can be created for different tenants.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717842019" stop="1519717842041" status="passed">
+            <name>queryTargetFromDifferentTenantIsNotVisible</name>
+            <description type="text">Ensures that targtes created by a tenant are not visible by another tenant.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717842043" stop="1519717842068" status="passed">
+            <name>getTenanatMetdata</name>
+            <description type="text">Ensures that tenant metadata is retrieved for the current tenant.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717842070" stop="1519717842159" status="passed">
+            <name>createMultipleDistributionSetsWithSameNameForDifferentTenants</name>
+            <description type="text">Ensures that multiple distribution sets with same name and version can be created for different tenants.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717842161" stop="1519717842180" status="passed">
+            <name>deleteAnotherTenantPossible</name>
+            <description type="text">Ensures that tenant with proper permissions can read and delete other tenants.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717842182" stop="1519717842203" status="passed">
+            <name>deleteTargetFromOtherTenantIsNotPossible</name>
+            <description type="text">Ensures that targets created from a different tenant cannot be deleted from other tenants</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Multi Tenancy"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

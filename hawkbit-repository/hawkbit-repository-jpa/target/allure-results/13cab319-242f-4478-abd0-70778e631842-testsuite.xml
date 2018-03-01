@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717822110" stop="1519717891054" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.event.RepositoryEntityEventTest</name>
+    <test-cases>
+        <test-case start="1519717822110" stop="1519717822342" status="passed">
+            <name>targetDeletedEventIsPublished</name>
+            <description type="text">Verifies that the target deleted event is published when a target has been deleted</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717822344" stop="1519717822356" status="passed">
+            <name>targetUpdateEventIsPublished</name>
+            <description type="text">Verifies that the target update event is published when a target has been updated</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717822358" stop="1519717822413" status="passed">
+            <name>distributionSetDeletedEventIsPublished</name>
+            <description type="text">Verifies that the distribution set deleted event is published when a distribution set has been deleted</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717822415" stop="1519717822431" status="passed">
+            <name>softwareModuleUpdateEventIsPublished</name>
+            <description type="text">Verifies that the software module update event is published when a software module has been updated</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717822433" stop="1519717822447" status="passed">
+            <name>softwareModuleDeletedEventIsPublished</name>
+            <description type="text">Verifies that the software module deleted event is published when a software module has been deleted</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717822449" stop="1519717822462" status="passed">
+            <name>targetCreatedEventIsPublished</name>
+            <description type="text">Verifies that the target created event is published when a target has been created</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717822463" stop="1519717822479" status="passed">
+            <name>distributionSetCreatedEventIsPublished</name>
+            <description type="text">Verifies that the distribution set created event is published when a distribution set has been created</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717822481" stop="1519717823359" status="passed">
+            <name>rolloutDeletedEventIsPublished</name>
+            <description type="text">Verifies that the rollout deleted event is published when a rollout has been deleted</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717823360" stop="1519717823373" status="passed">
+            <name>softwareModuleCreatedEventIsPublished</name>
+            <description type="text">Verifies that the software module created event is published when a software module has been created</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Entity Events"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

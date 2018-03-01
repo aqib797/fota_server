@@ -1,0 +1,12 @@
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-amqp/src/test/java/org/eclipse/hawkbit/integration/AmqpAuthenticationMessageHandlerIntegrationTest.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-amqp/src/test/java/org/eclipse/hawkbit/integration/AmqpMessageHandlerServiceIntegrationTest.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-amqp/src/test/java/org/eclipse/hawkbit/integration/DmfTestConfiguration.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-amqp/src/test/java/org/eclipse/hawkbit/amqp/AmqpMessageHandlerServiceTest.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-amqp/src/test/java/org/eclipse/hawkbit/matcher/SoftwareModuleJsonMatcher.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-amqp/src/test/java/org/eclipse/hawkbit/integration/AmqpServiceIntegrationTest.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-amqp/src/test/java/org/eclipse/hawkbit/amqp/AmqpControllerAuthenticationTest.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-amqp/src/test/java/org/eclipse/hawkbit/amqp/BaseAmqpServiceTest.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-amqp/src/test/java/org/eclipse/hawkbit/integration/AmqpMessageDispatcherServiceIntegrationTest.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-amqp/src/test/java/org/eclipse/hawkbit/integration/listener/ReplyToListener.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-amqp/src/test/java/org/eclipse/hawkbit/integration/listener/DeadletterListener.java
+/home/apoorva/hawkbit/hawkbit-dmf/hawkbit-dmf-amqp/src/test/java/org/eclipse/hawkbit/amqp/AmqpMessageDispatcherServiceTest.java

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718136512" stop="1519718140474" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.amqp.AmqpMessageHandlerServiceTest</name>
+    <test-cases>
+        <test-case start="1519718136512" stop="1519718136513" status="passed">
+            <name>invalidEventTopic</name>
+            <description type="text">Tests a invalid message without event topic</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136514" stop="1519718136514" status="passed">
+            <name>wrongContentType</name>
+            <description type="text">Tests not allowed content-type in message</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136515" stop="1519718136521" status="passed">
+            <name>unknownMessageType</name>
+            <description type="text">Tests the call of the same method that incoming RabbitMQ messages would access with an unknown message type.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136522" stop="1519718136523" status="passed">
+            <name>createThingWitoutReplyTo</name>
+            <description type="text">Tests the creation of a thing without a 'reply to' header in message.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136524" stop="1519718136527" status="passed">
+            <name>updateAttributes</name>
+            <description type="text">Tests the target attribute update by calling the same method that incoming RabbitMQ messages would access.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136528" stop="1519718136537" status="passed">
+            <name>authenticationRequestDeniedForArtifactWhichIsNotAssignedToTarget</name>
+            <description type="text">Tests that an download request is denied for an artifact which is not assigned to the requested target</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136538" stop="1519718136539" status="passed">
+            <name>createThing</name>
+            <description type="text">Tests the creation of a target/thing by calling the same method that incoming RabbitMQ messages would access.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136540" stop="1519718136545" status="passed">
+            <name>authenticationRequestDeniedForArtifactWhichDoesNotExists</name>
+            <description type="text">Tests that an download request is denied for an artifact which does not exists</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136546" stop="1519718136546" status="passed">
+            <name>createThingWithoutID</name>
+            <description type="text">Tests the creation of a target/thing without a thingID by calling the same method that incoming RabbitMQ messages would access.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136547" stop="1519718136553" status="passed">
+            <name>authenticationRequestAllowedForArtifactWhichExistsAndAssignedToTarget</name>
+            <description type="text">Tests that an download request is allowed for an artifact which exists and assigned to the requested target</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136554" stop="1519718136558" status="passed">
+            <name>updateActionStatusWithoutExistActionId</name>
+            <description type="text">Tests the update of an action of a target without a exist action id</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136560" stop="1519718136563" status="passed">
+            <name>updateActionStatusWithoutActionId</name>
+            <description type="text">Tests the update of an action of a target without a exist action id</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718136564" stop="1519718136577" status="passed">
+            <name>lookupNextUpdateActionAfterFinished</name>
+            <description type="text">Tests TODO</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="AmqpMessage Handler Service Test"/>
+        <label name="feature" value="Component Tests - Device Management Federation API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

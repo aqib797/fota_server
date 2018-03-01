@@ -1,0 +1,2 @@
+org/eclipse/hawkbit/security/ControllerPreAuthenticatedAnonymousDownloadTest.class
+org/eclipse/hawkbit/security/ControllerPreAuthenticatedSecurityHeaderFilterTest.class

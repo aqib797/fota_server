@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718046774" stop="1519718056777" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.ddi.rest.resource.DdiConfigDataTest</name>
+    <test-cases>
+        <test-case start="1519718046775" stop="1519718047012" status="passed">
+            <name>putConfigData</name>
+            <description type="text">We verify that the config data (i.e. device attributes like serial number, hardware revision etc.) can be uploaded correctly by the controller.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718047015" stop="1519718047068" status="passed">
+            <name>badConfigData</name>
+            <description type="text">We verify that the config data (i.e. device attributes like serial number, hardware revision etc.) resource behaves as exptected in cae of invalid request attempts.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718047070" stop="1519718047160" status="passed">
+            <name>requestConfigDataIfEmpty</name>
+            <description type="text">We verify that the config data (i.e. device attributes like serial number, hardware revision etc.) are requested only once from the device.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718047163" stop="1519718047224" status="passed">
+            <name>putToMuchConfigData</name>
+            <description type="text">We verify that the config data (i.e. device attributes like serial number, hardware revision etc.) upload limitation is inplace which is meant to protect the server from malicious attempts.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Config Data Resource"/>
+        <label name="feature" value="Component Tests - Direct Device Integration API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

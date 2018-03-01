@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.hawkbit.mgmt.rest.resource.MgmtDistributionSetTypeResourceTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.179 sec - in org.eclipse.hawkbit.mgmt.rest.resource.MgmtDistributionSetTypeResourceTest

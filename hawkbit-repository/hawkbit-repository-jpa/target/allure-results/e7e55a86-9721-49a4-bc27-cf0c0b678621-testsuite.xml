@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717808925" stop="1519717890961" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.RolloutManagementTest</name>
+    <test-cases>
+        <test-case start="1519717808925" stop="1519717809065" status="passed">
+            <name>createRolloutWithIllegalAmountOfGroups</name>
+            <description type="text">Verify Exception when a Rollout is created with too much groups</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717809069" stop="1519717809843" status="passed">
+            <name>createAndStartRollout</name>
+            <description type="text">Verify the creation and the start of a rollout.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717809846" stop="1519717809976" status="passed">
+            <name>errorActionPausesRolloutAndRolloutGetsResumedStartsNextScheduledGroup</name>
+            <description type="text">Verfiying a paused rollout in case of error action hit can be resumed again</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717809980" stop="1519717810160" status="passed">
+            <name>targetsOfRolloutGetDistributionSetAssignmentByOtherRollout</name>
+            <description type="text">Verify that target actions of a rollout get cancelled when another rollout with same targets gets started.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717810164" stop="1519717810196" status="passed">
+            <name>createAndStartRolloutDuringCreationFails</name>
+            <description type="text">Verify the start of a Rollout does not work during creation phase.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717810200" stop="1519717811004" status="passed">
+            <name>entityQueriesReferringToNotExistingEntitiesThrowsException</name>
+            <description type="text">Verifies that management queries react as specfied on calls for non existing entities  by means of throwing EntityNotFoundException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717811008" stop="1519717812905" status="passed">
+            <name>createRolloutWithGroupDefinition</name>
+            <description type="text">Verify the creation of a Rollout with a groups definition.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717812909" stop="1519717812998" status="passed">
+            <name>startRolloutSetFirstGroupAndActionsInRunningStateAndOthersInScheduleState</name>
+            <description type="text">Verifying that when the rollout is started the actions for all targets in the rollout is created and the state of the first group is running as well as the corresponding actions</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717813001" stop="1519717813020" status="passed">
+            <name>createRolloutNotMatchingTargets</name>
+            <description type="text">Verify the creation of a Rollout without targets throws an Exception.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717813023" stop="1519717813087" status="passed">
+            <name>rolloutShouldNotCancelRunningActionWithTheSameDistributionSet</name>
+            <description type="text">Verifies that a running action with distribution-set (A) is not canceled by a rollout which tries to also assign a distribution-set (A)</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717813090" stop="1519717813182" status="passed">
+            <name>countCorrectStatusForEachTargetGroupDuringRollout</name>
+            <description type="text">Verify that the targets have the right status during the rollout when receiving the status of rollout groups.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717813186" stop="1519717813264" status="passed">
+            <name>errorConditionExceeded</name>
+            <description type="text">Verify that the rollout pauses when the error condition was exceeded.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717813268" stop="1519717813445" status="passed">
+            <name>createRolloutWithGroupsNotMatchingTargets</name>
+            <description type="text">Verify Exception when a Rollout with Group definition is created that does not address all targets</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717813448" stop="1519717813687" status="passed">
+            <name>countRolloutsAllByFilters</name>
+            <description type="text">Verify the count of filtered existing rollouts.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717813691" stop="1519717813771" status="passed">
+            <name>countCorrectStatusForEachTargetDuringRolloutWithError</name>
+            <description type="text">Verify that the targets have the right status during the rollout when an error emerges.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717813785" stop="1519717814641" status="passed">
+            <name>deleteRolloutWhichHasNeverStartedIsHardDeleted</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717814645" stop="1519717814744" status="passed">
+            <name>checkRunningRolloutsDoesNotStartNextGroupIfFinishConditionIsNotHit</name>
+            <description type="text">Verifying that a finish condition of a group is hit the next group of the rollout is also started</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717814748" stop="1519717814801" status="passed">
+            <name>creatingRolloutIsCorrectPersisted</name>
+            <description type="text">Verifying that the rollout is created correctly, executing the filter and split up the targets in the correct group size.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717814805" stop="1519717814879" status="passed">
+            <name>successConditionNotAchieved</name>
+            <description type="text">Verify that the rollout does not move to the next group when the sucess condition was not achieved.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717814882" stop="1519717815001" status="passed">
+            <name>getFinishedPercentForRunningGroup</name>
+            <description type="text">Verify that the percent count is acting like aspected when targets move to the status finished or error.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717815004" stop="1519717816313" status="passed">
+            <name>deleteRolloutWhichHasBeenStartedBeforeIsSoftDeleted</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717816317" stop="1519717816401" status="passed">
+            <name>checkErrorHitOfGroupCallsErrorActionToPauseTheRollout</name>
+            <description type="text">Verfiying that the error handling action of a group is executed to pause the current rollout</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717816405" stop="1519717816711" status="passed">
+            <name>findAllRolloutsWithDetailedStatus</name>
+            <description type="text">Verify that all rollouts are return with expected target statuses.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717816716" stop="1519717816973" status="passed">
+            <name>countCorrectStatusForEachTargetDuringRollout</name>
+            <description type="text">Verify that the targets have the right status during the rollout.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717816977" stop="1519717817009" status="passed">
+            <name>createRolloutWithIllegalPercentage</name>
+            <description type="text">Verify Exception when a Rollout with Group definition is created that contains an illegal percentage</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717817015" stop="1519717817151" status="passed">
+            <name>findRolloutGroupTargetsWithRsqlParam</name>
+            <description type="text">Verify that the expected targets are returned for the rollout groups.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717817157" stop="1519717817267" status="passed">
+            <name>targetsOfRolloutGetsManuelDsAssignment</name>
+            <description type="text">Verify that target actions of rollout get canceled when a manuel distribution sets assignment is done.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717817271" stop="1519717817441" status="passed">
+            <name>checkRunningRolloutsStartsNextGroupIfTargetsDeleted</name>
+            <title>Deleting targets of a rollout</title>
+            <description type="text">Verfiying that next group is started when targets of the group have been deleted.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717817445" stop="1519717818009" status="passed">
+            <name>createAndStartRolloutWithEmptyGroups</name>
+            <description type="text">Verify the creation and the start of a Rollout with more groups than targets.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717818012" stop="1519717818630" status="passed">
+            <name>createAndAutoStartRollout</name>
+            <description type="text">Verify the creation and the automatic start of a rollout.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717818633" stop="1519717818664" status="passed">
+            <name>findRolloutByName</name>
+            <description type="text">Verify that the expected rollout is found by name.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717818668" stop="1519717818954" status="passed">
+            <name>findRolloutByFilters</name>
+            <description type="text">Verify that the filtering and sorting ascending for rollout is working correctly.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717818958" stop="1519717819180" status="passed">
+            <name>rightCountForAllRollouts</name>
+            <description type="text">Verify the count of existing rollouts.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717819184" stop="1519717819356" status="passed">
+            <name>startSecondRolloutAfterFristRolloutEndenWithErrors</name>
+            <description type="text">Verify that error status of DistributionSet installation during rollout can get rerun with second rollout so that all targets have some DistributionSet installed at the end.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717819359" stop="1519717819428" status="passed">
+            <name>successConditionAchievedAndErrorConditionNotExceeded</name>
+            <description type="text">Verify that the rollout moves to the next group when the success condition was achieved and the error condition was not exceeded.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717819432" stop="1519717819545" status="passed">
+            <name>nonExistingEntityAccessReturnsNotPresent</name>
+            <description type="text">Verifies that management get access reacts as specfied on calls for non existing entities by means of Optional not present.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717819548" stop="1519717819592" status="passed">
+            <name>createDuplicateRollout</name>
+            <description type="text">Verify the creation of a Rollout with the same name throws an Exception.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717819595" stop="1519717819718" status="passed">
+            <name>rolloutStartsGroupAfterGroupAndGetsFinished</name>
+            <description type="text">Verfiying that the rollout is starting group after group and gets finished at the end</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Rollout Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

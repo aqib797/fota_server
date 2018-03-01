@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717890430" stop="1519717890985" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.event.remote.RemoteIdEventTest</name>
+    <test-cases>
+        <test-case start="1519717890430" stop="1519717890507" status="passed">
+            <name>testRolloutDeletedEvent</name>
+            <description type="text">Verifies that the rollout id is correct reloaded</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717890508" stop="1519717890530" status="passed">
+            <name>testDistributionSetDeletedEvent</name>
+            <description type="text">Verifies that the ds id is correct reloaded</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717890531" stop="1519717890552" status="passed">
+            <name>testSoftwareModuleDeletedEvent</name>
+            <description type="text">Verifies that the software module id is correct reloaded</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717890553" stop="1519717890573" status="passed">
+            <name>testTargetDeletedEvent</name>
+            <description type="text">Verifies that the target id is correct reloaded</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717890575" stop="1519717890595" status="passed">
+            <name>testTargetTagDeletedEvent</name>
+            <description type="text">Verifies that the target tag id is correct reloaded</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717890597" stop="1519717890617" status="passed">
+            <name>testDistributionSetTagDeletedEvent</name>
+            <description type="text">Verifies that the ds tag id is correct reloaded</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Entity Id Events"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

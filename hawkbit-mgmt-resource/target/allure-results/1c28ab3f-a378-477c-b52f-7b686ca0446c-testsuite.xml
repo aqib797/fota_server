@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717971389" stop="1519717987901" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.mgmt.rest.resource.MgmtTargetTagResourceTest</name>
+    <test-cases>
+        <test-case start="1519717971389" stop="1519717971726" status="passed">
+            <name>createTargetTags</name>
+            <description type="text">Verifies that created target tags are stored in the repository as send to the API.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717971729" stop="1519717972118" status="passed">
+            <name>getAssignedTargetsWithPagingLimitRequestParameter</name>
+            <description type="text">Ensures that assigned DS to tag in repository are listed with proper paging results with paging limit parameter.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717972123" stop="1519717972487" status="passed">
+            <name>getAssignedTargets</name>
+            <description type="text">Ensures that assigned targets to tag in repository are listed with proper paging results.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717972490" stop="1519717972829" status="passed">
+            <name>getAssignedTargetsWithPagingLimitAndOffsetRequestParameter</name>
+            <description type="text">Ensures that assigned targets to tag in repository are listed with proper paging results with paging limit and offset parameter.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717972832" stop="1519717972958" status="passed">
+            <name>getTargetTag</name>
+            <description type="text">Verfies that a single result of a target tag reflects the content on the repository side.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717972961" stop="1519717973193" status="passed">
+            <name>deleteTargetTag</name>
+            <description type="text">Verfies that the delete call is reflected by the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717973196" stop="1519717973323" status="passed">
+            <name>getTargetTags</name>
+            <description type="text">Verfies that a paged result list of target tags reflects the content on the repository side.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717973325" stop="1519717973552" status="passed">
+            <name>updateTargetTag</name>
+            <description type="text">Verifies that an updated target tag is stored in the repository as send to the API.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717973554" stop="1519717973884" status="passed">
+            <name>unassignTarget</name>
+            <description type="text">Verfies that tag unassignments done through tag API command are correctly stored in the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717973887" stop="1519717974219" status="passed">
+            <name>assignTargets</name>
+            <description type="text">Verfies that tag assignments done through tag API command are correctly stored in the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717974222" stop="1519717974568" status="passed">
+            <name>toggleTagAssignment</name>
+            <description type="text">verfies that tag assignments done through toggle API command are correctly assigned or unassigned.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Target Tag Resource"/>
+        <label name="feature" value="Component Tests - Management API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

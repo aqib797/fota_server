@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717961625" stop="1519717987795" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.mgmt.rest.resource.MgmtSoftwareModuleResourceTest</name>
+    <test-cases>
+        <test-case start="1519717961625" stop="1519717962028" status="passed">
+            <name>downloadArtifact</name>
+            <description type="text">Tests binary download of an artifact including verfication that the downloaded binary is consistent and that the etag header is as expected identical to the SHA1 hash of the file.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962034" stop="1519717962144" status="passed">
+            <name>uploadArtifact</name>
+            <description type="text">Tests the uppload of an artifact binary. The upload is executed and the content checked in the repository for completenes.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962150" stop="1519717962212" status="passed">
+            <name>duplicateUploadArtifact</name>
+            <description type="text">Verfies that the system does not accept identical artifacts uploads for the same software module. Expected response: CONFLICT</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962218" stop="1519717962303" status="passed">
+            <name>deleteAssignedSoftwareModule</name>
+            <description type="text">Verifies successfull deletion of software modules that are in use, i.e. assigned to a DS which should result in movinf the module to the archive.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962306" stop="1519717962354" status="passed">
+            <name>getSoftwareModule</name>
+            <description type="text">Tests GET request on /rest/v1/softwaremodules/{smId}.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962357" stop="1519717962396" status="passed">
+            <name>detSoftwareModulesWithPagingLimitRequestParameter</name>
+            <description type="text">Test of modules retrieval with paging limit parameter. Will return all modules in the system as defined by given page size.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962399" stop="1519717962440" status="passed">
+            <name>deleteUnassignedSoftwareModule</name>
+            <description type="text">Verifies successfull deletion of software modules that are not in use, i.e. assigned to a DS.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962444" stop="1519717962479" status="passed">
+            <name>updateSoftwareModuleOnlyDescriptionAndVendorNameUntouched</name>
+            <description type="text">Tests the update of software module metadata. It is verfied that only the selected fields for the update are really updated and the modification values are filled (i.e. updated by and at).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962482" stop="1519717962529" status="passed">
+            <name>deleteModuleMetadataThatDoesNotExistLeadsToNotFound</name>
+            <description type="text">Ensures that module metadta deletion request to API on an entity that does not exist results in NOT_FOUND.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962532" stop="1519717962576" status="passed">
+            <name>uploadArtifactWithHashCheck</name>
+            <description type="text">Verfies that the system refuses upload of an artifact where the provided hash sums do not match. Expected result: BAD REQUEST</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962580" stop="1519717962631" status="passed">
+            <name>searchSoftwareModuleMetadataRsql</name>
+            <description type="text">Verfies the successfull search of a metadata entry based on value.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962634" stop="1519717962664" status="passed">
+            <name>getSoftwareModulesWithUnknownFieldErrorFilterParameter</name>
+            <description type="text">Verfies that the system answers as defined in case of a wnon extsing field used in filter. Expected result: BAD REQUEST with error description.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962668" stop="1519717962693" status="passed">
+            <name>getSoftwareModulesWithSyntaxErrorFilterParameter</name>
+            <description type="text">Verfies that the system answers as defined in case of a wrong filter parameter syntax. Expected result: BAD REQUEST with error description.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962697" stop="1519717962744" status="passed">
+            <name>updateMetadata</name>
+            <description type="text">Verfies the successfull update of metadata based on given key.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962750" stop="1519717962797" status="passed">
+            <name>createMetadata</name>
+            <description type="text">Verfies the successfull creation of metadata.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962803" stop="1519717962855" status="passed">
+            <name>getArtifacts</name>
+            <description type="text">Verifies the listing of all artifacts assigned to a software module. That includes the artifact metadata and download links.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962861" stop="1519717962907" status="passed">
+            <name>getSoftwareModulesWithPagingLimitAndOffsetRequestParameter</name>
+            <description type="text">Test of modules retrieval with paging limit offset parameters. Will return all modules in the system as defined by given page size starting from given offset.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962912" stop="1519717962957" status="passed">
+            <name>getSoftwareModules</name>
+            <description type="text">Test retrieval of all software modules the user has access to.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717962963" stop="1519717962999" status="passed">
+            <name>emptyUploadArtifact</name>
+            <description type="text">Verfies that the system does not accept empty artifact uploads. Expected response: BAD REQUEST</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717963005" stop="1519717963051" status="passed">
+            <name>getArtifact</name>
+            <description type="text">Verifies the listing of one defined artifact assigned to a given software module. That includes the artifact metadata and download links.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717963057" stop="1519717963104" status="passed">
+            <name>createSoftwareModules</name>
+            <description type="text">Verfies that the create request actually results in the creation of the modules in the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717963108" stop="1519717963153" status="passed">
+            <name>deleteArtifact</name>
+            <description type="text">Tests the deletion of an artifact including verfication that the artifact is actually erased in the repository and removed from the software module.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717963156" stop="1519717963193" status="passed">
+            <name>uploadArtifactWithCustomName</name>
+            <description type="text">verfies that option to upload artifacts with a custom defined by metadata, i.e. not the file name of the binary itself.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717963196" stop="1519717963246" status="passed">
+            <name>getSoftwareModulesWithFilterParameters</name>
+            <description type="text">Test the various filter parameters, e.g. filter by name or type of the module.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717963250" stop="1519717963275" status="passed">
+            <name>deleteSoftwareModuleThatDoesNotExistLeadsToNotFound</name>
+            <description type="text">Ensures that module deletion request to API on an entity that does not exist results in NOT_FOUND.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717963279" stop="1519717963329" status="passed">
+            <name>invalidRequestsOnSoftwaremodulesResource</name>
+            <description type="text">Verfies that the system refuses unsupported request types and answers as defined to them, e.g. NOT FOUND on a non existing resource. Or a HTTP POST for updating a resource results in METHOD NOT ALLOWED etc.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717963332" stop="1519717963368" status="passed">
+            <name>deleteMetadata</name>
+            <description type="text">Verfies the successfull deletion of metadata entry.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717963373" stop="1519717963417" status="passed">
+            <name>invalidRequestsOnArtifactResource</name>
+            <description type="text">Verfies that the system refuses unsupported request types and answers as defined to them, e.g. NOT FOUND on a non existing resource. Or a HTTP POST for updating a resource results in METHOD NOT ALLOWED etc.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717963421" stop="1519717963456" status="passed">
+            <name>getSoftwareModulesWithoutAddtionalRequestParameters</name>
+            <description type="text">Test of modules retrieval without any parameters. Will return all modules in the system as defined by standard page size.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Software Module Resource"/>
+        <label name="feature" value="Component Tests - Management API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

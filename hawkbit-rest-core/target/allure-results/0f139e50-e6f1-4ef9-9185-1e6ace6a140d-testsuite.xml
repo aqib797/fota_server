@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717900134" stop="1519717900748" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.rest.json.model.ExceptionInfoTest</name>
+    <test-cases>
+        <test-case start="1519717900148" stop="1519717900266" status="passed">
+            <name>setterAndGetterOnExceptionInfo</name>
+            <description type="text">Ensures that setters and getters match on teh payload.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21505@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Error Handling"/>
+        <label name="feature" value="Unit Tests - Management API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

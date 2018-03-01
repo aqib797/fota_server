@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717796553" stop="1519717891018" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.rsql.RSQLTagFieldsTest</name>
+    <test-cases>
+        <test-case start="1519717796553" stop="1519717796660" status="passed">
+            <name>testFilterDistributionSetTagByParameterName</name>
+            <description type="text">Test filter distribution set tag by name</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717796662" stop="1519717796721" status="passed">
+            <name>testFilterTargetTagByParameterColour</name>
+            <description type="text">Test filter target tag by colour</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717796724" stop="1519717796784" status="passed">
+            <name>testFilterTargetTagByParameterDescription</name>
+            <description type="text">Test filter target tag by description</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717796787" stop="1519717796837" status="passed">
+            <name>testFilterDistributionSetTagByParameterDescription</name>
+            <description type="text">Test filter distribution set by description</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717796842" stop="1519717796890" status="passed">
+            <name>testFilterDistributionSetTagByParameterColour</name>
+            <description type="text">Test filter distribution set by colour</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717796892" stop="1519717796941" status="passed">
+            <name>testFilterTargetTagByParameterName</name>
+            <description type="text">Test filter target tag by name</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="RSQL filter target and distribution set tags"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

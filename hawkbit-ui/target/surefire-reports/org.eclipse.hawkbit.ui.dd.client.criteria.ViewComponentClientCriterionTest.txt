@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.hawkbit.ui.dd.client.criteria.ViewComponentClientCriterionTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.837 sec - in org.eclipse.hawkbit.ui.dd.client.criteria.ViewComponentClientCriterionTest

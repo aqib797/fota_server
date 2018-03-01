@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718176519" stop="1519718179366" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.ui.dd.client.criteria.ViewComponentClientCriterionTest</name>
+    <test-cases>
+        <test-case start="1519718176519" stop="1519718177072" status="passed">
+            <name>successfulCheckValidDropTarget</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718177073" stop="1519718177103" status="passed">
+            <name>exceptionWhenCheckingValidDropTarget</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718177104" stop="1519718177134" status="passed">
+            <name>checkDragSourceWithValidId</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718177135" stop="1519718177137" status="passed">
+            <name>exceptionWhenCheckingDragSource</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718177138" stop="1519718177140" status="passed">
+            <name>failedCheckValidDropTarget</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718177141" stop="1519718177399" status="passed">
+            <name>processSerializedDropTargetHintsDataStructure</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718177399" stop="1519718177400" status="passed">
+            <name>checkDragSourceWithInvalidId</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718177401" stop="1519718177402" status="passed">
+            <name>exceptionWhenProcessingDropTargetHintsDataStructure</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

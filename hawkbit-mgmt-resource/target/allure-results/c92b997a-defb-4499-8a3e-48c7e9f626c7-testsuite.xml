@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717926626" stop="1519717987856" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.mgmt.rest.resource.MgmtTargetResourceTest</name>
+    <test-cases>
+        <test-case start="1519717926631" stop="1519717927892" status="passed">
+            <name>getControllerEmptyAttributesReturnsNoContent</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717927920" stop="1519717928086" status="passed">
+            <name>deleteTargetWhichDoesNotExistsLeadsToNotFound</name>
+            <description type="text">Ensures that deletion is refused with not found if target does not exist.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717928091" stop="1519717928436" status="passed">
+            <name>updateTargetDescription</name>
+            <description type="text">Ensures that target update request is reflected by repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717928449" stop="1519717928608" status="passed">
+            <name>getInstalledDistributionSetOfTargetIsEmpty</name>
+            <description type="text">Ensures that get request for installed distribution sets returns no count if no distribution set has been installed.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717928613" stop="1519717929077" status="passed">
+            <name>getMultipleActionStatusWithPagingLimitRequestParameter</name>
+            <description type="text">Verifies that the API returns the status list with expected content split into two pages.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717929082" stop="1519717929265" status="passed">
+            <name>getAssignedDistributionSetOfTarget</name>
+            <description type="text">Ensures that the get request for asigned distribution sets works.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717929270" stop="1519717929449" status="passed">
+            <name>updateAction</name>
+            <description type="text">Verfies that an action is switched from soft to forced if requested by management API</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717929454" stop="1519717929591" status="passed">
+            <name>getTargetWithPagingLimitAndOffsetRequestParameter</name>
+            <description type="text">Ensures that target query returns list of targets in defined format in size reduced by given limit and offset parameter.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717929596" stop="1519717929672" status="passed">
+            <name>securityTokenIsInResponseWithCorrectPermission</name>
+            <description type="text">Ensures that security token is returned if user does have READ_TARGET_SEC_TOKEN permission.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717929677" stop="1519717929739" status="passed">
+            <name>getSingleTargetNoExistsResponseNotFound</name>
+            <description type="text">Ensures that target get request returns a not found if the target does not exits.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717929744" stop="1519717929874" status="passed">
+            <name>assignDistributionSetToTargetWithActionTimeForcedAndTime</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717929879" stop="1519717929951" status="passed">
+            <name>createTargetsSingleEntryListReturnsSuccessful</name>
+            <description type="text">Ensures that a post request for creating one target within a list works.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717929956" stop="1519717930074" status="passed">
+            <name>forceQuitAnNotCanceledActionReturnsMethodNotAllowed</name>
+            <description type="text">Force Quit an Action, which is not canceled. Expected Result is an HTTP response code 405.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717930079" stop="1519717930202" status="passed">
+            <name>offlineAssignDistributionSetToTarget</name>
+            <description type="text">Verfies that an offline DS to target assignment is reflected by the repository and that repeating the assignment does not change the target.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717930208" stop="1519717930432" status="passed">
+            <name>getActionStatusReturnsCorrectType</name>
+            <description type="text">Ensures that actions list is in exptected order.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717930437" stop="1519717930513" status="passed">
+            <name>createTargetWithInvalidPropertyBadRequest</name>
+            <description type="text">Verfies that a  properties of new targets are validated as in allowed size range.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717930518" stop="1519717930635" status="passed">
+            <name>forceQuitAnCanceledActionReturnsOk</name>
+            <description type="text">Force Quit an Action, which is already canceled. Expected Result is an HTTP response code 204.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717930639" stop="1519717930725" status="passed">
+            <name>getSingleTarget</name>
+            <description type="text">Ensures that the get request for a target works.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717930730" stop="1519717930882" status="passed">
+            <name>getMultipleActionStatusSortedByReportedAt</name>
+            <description type="text">Verifies that the API returns the status list with expected content sorted by reportedAt field.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717930887" stop="1519717930953" status="passed">
+            <name>createTargetsListReturnsSuccessful</name>
+            <description type="text">Ensures that a post request for creating multiple targets works.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717930957" stop="1519717931072" status="passed">
+            <name>getCancelAction</name>
+            <description type="text">Ensures that the expected response is return when update was cancelled.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717931076" stop="1519717931130" status="passed">
+            <name>getAssignedDistributionSetOfTargetIsEmpty</name>
+            <description type="text">Ensures that get request for asigned distribution sets returns no count if no distribution set has been assigned.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717931134" stop="1519717931277" status="passed">
+            <name>invalidRequestsOnActionResource</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717931281" stop="1519717931420" status="passed">
+            <name>searchTargetsUsingRsqlQuery</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717931425" stop="1519717931513" status="passed">
+            <name>cancelAndCancelActionIsNotAllowed</name>
+            <description type="text">Ensures that method not allowed is returned if cancelation is triggered on already canceled action.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717931518" stop="1519717931564" status="passed">
+            <name>createTargetWithMissingMandatoryPropertyBadRequest</name>
+            <description type="text">Verfies that a mandatory properties of new targets are validated as not null.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717931568" stop="1519717931611" status="passed">
+            <name>updateTargetWhichDoesNotExistsLeadsToNotFound</name>
+            <description type="text">Ensures that update is refused with not found if target does not exist.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717931615" stop="1519717931734" status="passed">
+            <name>searchActionsRsql</name>
+            <description type="text">Ensures that actions history is returned as defined by filter status==pending,status==finished.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717931739" stop="1519717931856" status="passed">
+            <name>assignDistributionSetToTarget</name>
+            <description type="text">Verfies that a DS to target assignment is reflected by the repository and that repeating the assignment does not change the target.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717931862" stop="1519717932040" status="passed">
+            <name>getUpdateAction</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717932045" stop="1519717932263" status="passed">
+            <name>invalidRequestsOnActionStatusResource</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717932272" stop="1519717932341" status="passed">
+            <name>securityTokenIsNotInResponseIfMissingPermission</name>
+            <description type="text">Ensures that security token is not returned if user does not have READ_TARGET_SEC_TOKEN permission.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717932350" stop="1519717932504" status="passed">
+            <name>getMultipleActions</name>
+            <description type="text">Ensures that the expected response of geting actions of a target is returned.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717932512" stop="1519717932580" status="passed">
+            <name>createTargetsSingleEntryListDoubleReturnConflict</name>
+            <description type="text">Ensures that a post request for creating the same target again leads to a conflict response.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717932587" stop="1519717932647" status="passed">
+            <name>getActionWithEmptyResult</name>
+            <description type="text">Ensures that the get request for action of a target returns no actions if nothing has happened.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717932655" stop="1519717932726" status="passed">
+            <name>addressAndIpAddressInTargetResult</name>
+            <description type="text">Ensures that that IP address is in result as stored in the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717932734" stop="1519717932844" status="passed">
+            <name>cancelActionOK</name>
+            <description type="text">Ensures that a deletion of an active action results in cancelation triggered.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717932848" stop="1519717932895" status="passed">
+            <name>updateTargetSecurityToken</name>
+            <description type="text">Ensures that target update request is reflected by repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717932900" stop="1519717932938" status="passed">
+            <name>createTargetWithBadPayloadBadRequest</name>
+            <description type="text">Ensures that post request for creating a target with invalid payload returns a bad request.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717932942" stop="1519717932981" status="passed">
+            <name>deleteTargetReturnsOK</name>
+            <description type="text">Ensures that deletion is executed if permitted.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717932986" stop="1519717933031" status="passed">
+            <name>getTargetWithPagingLimitRequestParameter</name>
+            <description type="text">Ensures that target query returns list of targets in defined format in size reduced by given limit parameter.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717933036" stop="1519717933073" status="passed">
+            <name>updateTargetAddress</name>
+            <description type="text">Ensures that target update request is reflected by repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717933077" stop="1519717933113" status="passed">
+            <name>createTargetWithoutPayloadBadRequest</name>
+            <description type="text">Ensures that post request for creating a target with no payload returns a bad request.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717933117" stop="1519717933189" status="passed">
+            <name>getTargetWithoutAddtionalRequestParameters</name>
+            <description type="text">Ensures that target query returns list of targets in defined format.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717933194" stop="1519717933355" status="passed">
+            <name>getMultipleActionStatus</name>
+            <description type="text">Verifies that the API returns the status list with expected content.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717933361" stop="1519717933410" status="passed">
+            <name>updateTargetDescriptionFailsIfInvalidLength</name>
+            <description type="text">Ensures that target update request fails is updated value fails against a constraint.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717933415" stop="1519717933497" status="passed">
+            <name>invalidRequestsOnAssignDistributionSetToTarget</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717933502" stop="1519717933554" status="passed">
+            <name>getControllerAttributesViaTargetResourceReturnsAttributesWithOk</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717933559" stop="1519717933674" status="passed">
+            <name>getMultipleActionsWithPagingLimitRequestParameter</name>
+            <description type="text">Verifies getting multiple actions with the paging request parameter.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Target Resource"/>
+        <label name="feature" value="Component Tests - Management API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

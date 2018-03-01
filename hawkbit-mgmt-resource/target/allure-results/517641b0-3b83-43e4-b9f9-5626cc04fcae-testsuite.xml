@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717945634" stop="1519717987867" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.mgmt.rest.resource.MgmtDistributionSetTypeResourceTest</name>
+    <test-cases>
+        <test-case start="1519717945634" stop="1519717945771" status="passed">
+            <name>getOptionalModuleOfDistributionSetType</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes/{ID}/optionalmoduletypes/{ID} GET requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717945775" stop="1519717945825" status="passed">
+            <name>deleteDistributionSetTypeUnused</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/DistributionSetTypes/{ID} DELETE requests (hard delete scenario).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717945831" stop="1519717945891" status="passed">
+            <name>getDistributionSetTypesWithoutAddtionalRequestParameters</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes GET requests with paging.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717945895" stop="1519717945939" status="passed">
+            <name>getDistributionSetType</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes/{ID} GET requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717945942" stop="1519717945989" status="passed">
+            <name>getDistributionSetTypes</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes GET requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717945992" stop="1519717946031" status="passed">
+            <name>updateDistributionSetTypeOnlyDescriptionAndNameUntouched</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes/{ID} PUT requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946035" stop="1519717946084" status="passed">
+            <name>getDistributionSetTypesSortedByKey</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes GET requests with sorting by KEY.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946087" stop="1519717946123" status="passed">
+            <name>deleteDistributionSetTypeThatDoesNotExistLeadsToNotFound</name>
+            <description type="text">Ensures that DS type deletion request to API on an entity that does not exist results in NOT_FOUND.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946126" stop="1519717946193" status="passed">
+            <name>deleteDistributionSetTypeUsed</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/DistributionSetTypes/{ID} DELETE requests (soft delete scenario).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946196" stop="1519717946232" status="passed">
+            <name>getDistributionSetTypesWithPagingLimitAndOffsetRequestParameter</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes GET requests with paging.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946235" stop="1519717946271" status="passed">
+            <name>removeMandatoryModuleToDistributionSetType</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes/{ID}/mandatorymoduletypes/{ID} DELETE requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946274" stop="1519717946311" status="passed">
+            <name>getMandatoryModulesOfDistributionSetType</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes/{ID}/mandatorymoduletypes GET requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946315" stop="1519717946355" status="passed">
+            <name>searchDistributionSetTypeRsql</name>
+            <description type="text">Search erquest of software module types.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946358" stop="1519717946397" status="passed">
+            <name>removeOptionalModuleToDistributionSetType</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes/{ID}/optionalmoduletypes/{ID} DELETE requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946400" stop="1519717946455" status="passed">
+            <name>createDistributionSetTypes</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes POST requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946459" stop="1519717946496" status="passed">
+            <name>getMandatoryModuleOfDistributionSetType</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes/{ID}/mandatorymoduletypes/{ID} GET requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946499" stop="1519717946540" status="passed">
+            <name>addMandatoryModuleToDistributionSetType</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes/{ID}/mandatorymoduletypes POST requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946543" stop="1519717946581" status="passed">
+            <name>getOptionalModulesOfDistributionSetType</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes/{ID}/optionalmoduletypes GET requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946584" stop="1519717946623" status="passed">
+            <name>addOptionalModuleToDistributionSetType</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes/{ID}/optionalmoduletypes POST requests.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946627" stop="1519717946667" status="passed">
+            <name>getDistributionSetTypesWithPagingLimitRequestParameter</name>
+            <description type="text">Checks the correct behaviour of /rest/v1/distributionsettypes GET requests with paging.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717946670" stop="1519717946807" status="passed">
+            <name>invalidRequestsOnDistributionSetTypesResource</name>
+            <description type="text">Ensures that the server is behaving as expected on invalid requests (wrong media type, wrong ID etc.).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Distribution Set Type Resource"/>
+        <label name="feature" value="Component Tests - Management API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

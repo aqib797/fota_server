@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.hawkbit.ddi.rest.resource.DosFilterTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.816 sec - in org.eclipse.hawkbit.ddi.rest.resource.DosFilterTest

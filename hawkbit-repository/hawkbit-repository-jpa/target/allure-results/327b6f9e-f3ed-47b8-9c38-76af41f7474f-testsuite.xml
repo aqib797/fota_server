@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717769822" stop="1519717891086" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.SoftwareModuleTypeManagementTest</name>
+    <test-cases>
+        <test-case start="1519717769822" stop="1519717769927" status="passed">
+            <name>createMultipleSoftwareModuleTypes</name>
+            <description type="text">Verfies that multiple types are created as requested.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717769930" stop="1519717769958" status="passed">
+            <name>updateNothingResultsInUnchangedRepositoryForType</name>
+            <description type="text">Calling update without changing fields results in no recorded change in the repository including unchanged audit fields.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717769961" stop="1519717770091" status="passed">
+            <name>entityQueriesReferringToNotExistingEntitiesThrowsException</name>
+            <description type="text">Verifies that management queries react as specfied on calls for non existing entities  by means of throwing EntityNotFoundException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717770093" stop="1519717770119" status="passed">
+            <name>createSoftwareModuleTypesFailsWithExistingEntity</name>
+            <description type="text">Verfies that it is not possible to create a list of types where one already exists.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717770122" stop="1519717770184" status="passed">
+            <name>deleteAssignedAndUnassignedSoftwareModuleTypes</name>
+            <description type="text">Tests the successfull deletion of software module types. Both unused (hard delete) and used ones (soft delete).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717770187" stop="1519717770213" status="passed">
+            <name>updateSoftareModuleTypeFieldsToNewValue</name>
+            <description type="text">Calling update for changed fields results in change in the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717770216" stop="1519717770240" status="passed">
+            <name>createSoftwareModuleTypeFailsWithExistingEntity</name>
+            <description type="text">Verfies that it is not possible to create a type that alrady exists.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717770243" stop="1519717770269" status="passed">
+            <name>createSoftwareModuleTypesFailsWithInvalidMaxAssignment</name>
+            <description type="text">Verifies that the creation of a softwareModuleType is failing because of invalid max assignment</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717770273" stop="1519717770300" status="passed">
+            <name>createModuleTypesCallFailsForExistingTypes</name>
+            <description type="text">Create Software Module Types call fails when called for existing entities.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717770303" stop="1519717770326" status="passed">
+            <name>findSoftwareModuleTypeByName</name>
+            <description type="text">Checks that software module typeis found based on given name.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717770329" stop="1519717770449" status="passed">
+            <name>nonExistingEntityAccessReturnsNotPresent</name>
+            <description type="text">Verifies that management get access reacts as specfied on calls for non existing entities by means of Optional not present.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Software Module Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

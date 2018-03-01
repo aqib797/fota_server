@@ -1,0 +1,13 @@
+org/eclipse/hawkbit/integration/listener/DeadletterListener.class
+org/eclipse/hawkbit/integration/listener/ReplyToListener.class
+org/eclipse/hawkbit/amqp/AmqpMessageDispatcherServiceTest.class
+org/eclipse/hawkbit/integration/AmqpMessageHandlerServiceIntegrationTest.class
+org/eclipse/hawkbit/integration/DmfTestConfiguration.class
+org/eclipse/hawkbit/matcher/SoftwareModuleJsonMatcher$SoftwareModulesMatcher.class
+org/eclipse/hawkbit/amqp/AmqpControllerAuthenticationTest.class
+org/eclipse/hawkbit/matcher/SoftwareModuleJsonMatcher.class
+org/eclipse/hawkbit/integration/AmqpMessageDispatcherServiceIntegrationTest.class
+org/eclipse/hawkbit/integration/AmqpServiceIntegrationTest.class
+org/eclipse/hawkbit/amqp/AmqpMessageHandlerServiceTest.class
+org/eclipse/hawkbit/amqp/BaseAmqpServiceTest.class
+org/eclipse/hawkbit/integration/AmqpAuthenticationMessageHandlerIntegrationTest.class

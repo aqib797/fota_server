@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717977875" stop="1519717987880" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.mgmt.rest.resource.MgmtDistributionSetResourceTest</name>
+    <test-cases>
+        <test-case start="1519717977875" stop="1519717978026" status="passed">
+            <name>deleteMetadataThatDoesNotExistLeadsToNotFound</name>
+            <description type="text">Ensures that DS metadata deletion request to API on an entity that does not exist results in NOT_FOUND.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978029" stop="1519717978066" status="passed">
+            <name>getAssignedTargetsOfDistributionSetIsEmpty</name>
+            <description type="text">Ensures that assigned targets of DS are returned as persisted in the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978069" stop="1519717978161" status="passed">
+            <name>assignMultipleTargetsToDistributionSet</name>
+            <description type="text">Ensures that multi target assignment through API is reflected by the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978165" stop="1519717978214" status="passed">
+            <name>getAssignedTargetsOfDistributionSet</name>
+            <description type="text">Ensures that assigned targets of DS are returned as reflected by the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978217" stop="1519717978265" status="passed">
+            <name>getDistributionSet</name>
+            <description type="text">Ensures that single DS requested by ID is listed with expected payload.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978268" stop="1519717978331" status="passed">
+            <name>getDistributionSetsWithPagingLimitRequestParameter</name>
+            <description type="text">Ensures that DS in repository are listed with proper paging results with paging limit parameter.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978334" stop="1519717978370" status="passed">
+            <name>getAutoAssignTargetFiltersOfDSWithInvalidFilter</name>
+            <description type="text">Ensures that an error is returned when the query is invalid.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978373" stop="1519717978404" status="passed">
+            <name>getSoftwaremodules</name>
+            <description type="text">This test verifies the call of all Software Modules that are assiged to a Distribution Set through the RESTful API.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978408" stop="1519717978453" status="passed">
+            <name>deleteFailureWhenDistributionSetInUse</name>
+            <description type="text">This test verifies the deletion of a assigned Software Module of a Distribution Set can not be achieved when that Distribution Set has been assigned or installed to a target.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978456" stop="1519717978510" status="passed">
+            <name>getEmptyAutoAssignTargetFiltersOfDistributionSet</name>
+            <description type="text">Ensures that no target filters are returned according to the non matching query.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978514" stop="1519717978572" status="passed">
+            <name>invalidRequestsOnDistributionSetsResource</name>
+            <description type="text">Ensures that the server reacts properly to invalid requests (URI, Media Type, Methods) with correct reponses.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978576" stop="1519717978599" status="passed">
+            <name>deleteDistributionSetThatDoesNotExistLeadsToNotFound</name>
+            <description type="text">Ensures that DS deletion request to API on an entity that does not exist results in NOT_FOUND.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978603" stop="1519717978677" status="passed">
+            <name>getDistributionSetsWithPagingLimitAndOffsetRequestParameter</name>
+            <description type="text">Ensures that DS in repository are listed with proper paging results with paging limit and offset parameter.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978683" stop="1519717978730" status="passed">
+            <name>deleteUnassignedistributionSet</name>
+            <description type="text">Ensures that DS deletion request to API is reflected by the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978736" stop="1519717978778" status="passed">
+            <name>getSingleMetadata</name>
+            <description type="text">Ensures that a metadata entry selection through API reflectes the repository content.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978785" stop="1519717978848" status="passed">
+            <name>getMultipleAutoAssignTargetFiltersOfDistributionSet</name>
+            <description type="text">Ensures that target filters with auto assign DS are returned according to the query.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978854" stop="1519717978927" status="passed">
+            <name>getInstalledTargetsOfDistributionSet</name>
+            <description type="text">Ensures that installed targets of DS are returned as persisted in the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978934" stop="1519717978987" status="passed">
+            <name>updateRequiredMigrationStepFailsIfDistributionSetisInUse</name>
+            <description type="text">Ensures that DS property update on requiredMigrationStep fails if DS is assigned to a target.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717978994" stop="1519717979067" status="passed">
+            <name>unassignSoftwaremoduleFromDistributionSet</name>
+            <description type="text">This test verifies the removal of Software Modules of a Distribution Set through the RESTful API.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979073" stop="1519717979120" status="passed">
+            <name>updateDistributionSet</name>
+            <description type="text">Ensures that DS property update request to API is reflected by the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979126" stop="1519717979177" status="passed">
+            <name>deleteAssignedDistributionSet</name>
+            <description type="text">Ensures that assigned DS deletion request to API is reflected by the repository by means of deleted flag set.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979184" stop="1519717979249" status="passed">
+            <name>getPagedListofMetadata</name>
+            <description type="text">Ensures that a metadata entry paged list selection through API reflectes the repository content.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979256" stop="1519717979306" status="passed">
+            <name>updateMetadata</name>
+            <description type="text">Ensures that a metadata update through API is reflected by the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979311" stop="1519717979364" status="passed">
+            <name>assignmentFailureWhenAssigningToUsedDistributionSet</name>
+            <description type="text">This test verifies that the assignment of a Software Module to a Distribution Set can not be achieved when that Distribution Set has been assigned or installed to a target.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979368" stop="1519717979490" status="passed">
+            <name>filterDistributionSetComplete</name>
+            <description type="text">Ensures that a DS search with complete==true parameter returns only DS that are actually completely filled with mandatory modules.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979494" stop="1519717979544" status="passed">
+            <name>offlineAssignmentOfMultipleTargetsToDistributionSet</name>
+            <description type="text">Ensures that offline reported multi target assignment through API is reflected by the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979548" stop="1519717979580" status="passed">
+            <name>createMetadata</name>
+            <description type="text">Ensures that the metadata creation through API is reflected by the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979583" stop="1519717979629" status="passed">
+            <name>searchDistributionSetMetadataRsql</name>
+            <description type="text">Ensures that a DS metadata filtered query with value==knownValue1 parameter returns only the metadata entries with that value.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979633" stop="1519717979675" status="passed">
+            <name>searchDistributionSetAssignedTargetsRsql</name>
+            <description type="text">Ensures that a DS assigned target search with controllerId==1 parameter returns only the target with the given ID.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979679" stop="1519717979717" status="passed">
+            <name>assignSoftwaremoduleToDistributionSet</name>
+            <description type="text">This test verifies the assignment of Software Modules to a Distribution Set through the RESTful API.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979721" stop="1519717979756" status="passed">
+            <name>getAutoAssignTargetFiltersOfDistributionSet</name>
+            <description type="text">Ensures that target filters with auto assign DS are returned as persisted in the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979759" stop="1519717979875" status="passed">
+            <name>searchDistributionSetRsql</name>
+            <description type="text">Ensures that a DS search with query parameters returns the expected result.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979895" stop="1519717979927" status="passed">
+            <name>deleteMetadata</name>
+            <description type="text">Ensures that a metadata entry deletion through API is reflected by the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979931" stop="1519717979991" status="passed">
+            <name>createDistributionSets</name>
+            <description type="text">Ensures that multipe DS posted to API are created in the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717979994" stop="1519717980035" status="passed">
+            <name>getDistributionSets</name>
+            <description type="text">Ensures that multiple DS requested are listed with expected payload.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717980039" stop="1519717980113" status="passed">
+            <name>getDistributionSetsWithoutAddtionalRequestParameters</name>
+            <description type="text">Ensures that DS in repository are listed with proper paging properties.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Distribution Set Resource"/>
+        <label name="feature" value="Component Tests - Management API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

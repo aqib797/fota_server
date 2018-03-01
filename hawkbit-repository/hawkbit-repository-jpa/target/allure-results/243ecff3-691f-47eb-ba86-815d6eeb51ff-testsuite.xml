@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717825624" stop="1519717891050" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.DistributionSetManagementTest</name>
+    <test-cases>
+        <test-case start="1519717825624" stop="1519717826038" status="passed">
+            <name>createAndUpdateDistributionSetWithInvalidFields</name>
+            <description type="text">Verify that a DistributionSet with invalid properties cannot be created or updated</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717826041" stop="1519717826053" status="passed">
+            <name>createDistributionSetWithImplicitType</name>
+            <description type="text">Verifies that a DS is of default type if not specified explicitly at creation time.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717826056" stop="1519717826237" status="passed">
+            <name>searchDistributionSetsOnFilters</name>
+            <description type="text">searches for distribution sets based on the various filter options, e.g. name, version, desc., tags.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717826240" stop="1519717826604" status="passed">
+            <name>entityQueriesReferringToNotExistingEntitiesThrowsException</name>
+            <description type="text">Verifies that management queries react as specfied on calls for non existing entities  by means of throwing EntityNotFoundException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717826607" stop="1519717826632" status="passed">
+            <name>deleteUnassignedDistributionSet</name>
+            <description type="text">Deltes a DS that is no in use. Expected behaviour is a hard delete on the database.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717826637" stop="1519717826665" status="passed">
+            <name>createDuplicateDistributionSetsFailsWithException</name>
+            <description type="text">Ensures that it is not possible to create a DS that already exists (unique constraint is on name,version for DS).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717826668" stop="1519717826714" status="passed">
+            <name>assignAndUnassignDistributionSetToTag</name>
+            <description type="text">Ensures that distribution sets can assigned and unassigned to a  distribution set tag.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717826718" stop="1519717826748" status="passed">
+            <name>verifyDistributionSetAssignmentResultNotContainsAlreadyAssignedTargets</name>
+            <description type="text">Verify that the DistributionSetAssignmentResult not contains already assigned targets.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717826751" stop="1519717827075" status="passed">
+            <name>verifyFindDistributionSetAllById</name>
+            <description type="text">Verify that the find all by ids contains the entities which are looking for</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717827078" stop="1519717827096" status="passed">
+            <name>createDistributionSetWithDuplicateNameAndVersionFails</name>
+            <description type="text">Verifies that a DS cannot be created if another DS with same name and version exists.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717827099" stop="1519717827134" status="passed">
+            <name>updateDistributionSet</name>
+            <description type="text">Legal updates of a DS, e.g. name or description and module addition, removal while still unassigned.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717827137" stop="1519717827256" status="passed">
+            <name>deleteAssignedDistributionSet</name>
+            <description type="text">Deletes a DS that is in use by either target assignment or rollout. Expected behaviour is a soft delete on the database, i.e. only marked as deleted, kept as reference but unavailable for future use..</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717827259" stop="1519717827385" status="passed">
+            <name>updateDistributionSetMetadata</name>
+            <description type="text">Checks that metadata for a distribution set can be updated.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717827388" stop="1519717827405" status="passed">
+            <name>updateDistributionSetUnsupportedModuleFails</name>
+            <description type="text">Ensures that it is not possible to add a software module that is not defined of the DS's type.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717827408" stop="1519717827536" status="passed">
+            <name>findDistributionSetsWithoutLazy</name>
+            <description type="text">Simple DS load without the related data that should be loaded lazy.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717827539" stop="1519717827558" status="passed">
+            <name>createDistributionSetMetadata</name>
+            <description type="text">Checks that metadata for a distribution set can be created.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717827561" stop="1519717827612" status="passed">
+            <name>findAllDistributionSetMetadataByDsId</name>
+            <description type="text">Queries and loads the metadata related to a given software module.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717827615" stop="1519717827707" status="passed">
+            <name>findDistributionSetsAllOrderedByLinkTarget</name>
+            <description type="text">Tests that a DS queue is possible where the result is ordered by the target assignment, i.e. assigned first in the list.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717827710" stop="1519717827936" status="passed">
+            <name>nonExistingEntityAccessReturnsNotPresent</name>
+            <description type="text">Verifies that management get access react as specfied on calls for non existing entities by means of Optional not present.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717827940" stop="1519717827961" status="passed">
+            <name>createMultipleDistributionSetsWithImplicitType</name>
+            <description type="text">Verifies that multiple DS are of default type if not specified explicitly at creation time.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717827964" stop="1519717827992" status="passed">
+            <name>updateDistributionSetForbiddedWithIllegalUpdate</name>
+            <description type="text">Ensures that updates concerning the internal software structure of a DS are not possible if the DS is already assigned.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="DistributionSet Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

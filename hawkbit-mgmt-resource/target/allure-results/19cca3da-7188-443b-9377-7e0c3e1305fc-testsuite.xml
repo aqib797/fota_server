@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717950322" stop="1519717987887" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.mgmt.rest.resource.MgmtRolloutResourceTest</name>
+    <test-cases>
+        <test-case start="1519717950322" stop="1519717950654" status="passed">
+            <name>retrieveTargetsFromRolloutGroup</name>
+            <description type="text">Testing that the targets of rollout group can be retrieved</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717950659" stop="1519717951150" status="passed">
+            <name>getRolloutWithRSQLParam</name>
+            <description type="text">Testing that rollout paged list with rsql parameter</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717951154" stop="1519717955934" status="passed">
+            <name>startingRolloutSwitchesIntoRunningStateAsync</name>
+            <description type="text">Start the rollout in async mode</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717955938" stop="1519717956039" status="passed">
+            <name>retrieveTargetsFromRolloutGroupAfterRolloutIsStarted</name>
+            <description type="text">Testing that the targets of rollout group can be retrieved after the rollout has been started</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717956042" stop="1519717956211" status="passed">
+            <name>startingRolloutSwitchesIntoRunningState</name>
+            <description type="text">Testing that starting the rollout switches the state to starting and then to running</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717956215" stop="1519717956301" status="passed">
+            <name>createRolloutWithGroupsDefinitions</name>
+            <description type="text">Testing that rollout can be created with groups</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717956304" stop="1519717956389" status="passed">
+            <name>resumingNotStartedRolloutReturnsBadRequest</name>
+            <description type="text">Testing that resuming a rollout which is not started leads to bad request</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717956392" stop="1519717956451" status="passed">
+            <name>createRollout</name>
+            <description type="text">Testing that rollout can be created</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717956455" stop="1519717956491" status="passed">
+            <name>createRolloutWithNotWellFormedFilterReturnsBadRequest</name>
+            <description type="text">Testing that creating rollout with not valid formed target filter query returns bad request</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717956494" stop="1519717956559" status="passed">
+            <name>retrieveTargetsFromRolloutGroupWithQuery</name>
+            <description type="text">Testing that the targets of rollout group can be retrieved with rsql query param</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717956562" stop="1519717956670" status="passed">
+            <name>startingRolloutFirstRolloutGroupIsInRunningState</name>
+            <description type="text">Testing that starting rollout the first rollout group is in running state</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717956674" stop="1519717956933" status="passed">
+            <name>rolloutPagedListContainsAllRollouts</name>
+            <description type="text">Testing that rollout paged list contains rollouts</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717956939" stop="1519717957085" status="passed">
+            <name>startingAlreadyStartedRolloutReturnsBadRequest</name>
+            <description type="text">Testing that an already started rollout cannot be started again and returns bad request</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717957089" stop="1519717957122" status="passed">
+            <name>noRolloutReturnsEmptyList</name>
+            <description type="text">Testing the empty list is returned if no rollout exists</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717957127" stop="1519717957309" status="passed">
+            <name>resumingRolloutSwitchesIntoRunningState</name>
+            <description type="text">Testing that resuming the rollout switches the state to running</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717957313" stop="1519717957355" status="passed">
+            <name>createRolloutWithToLowlPercentage</name>
+            <description type="text">Testing that no rollout with groups that have illegal percentages can be created</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717957359" stop="1519717957495" status="passed">
+            <name>retrieveSingleRolloutGroup</name>
+            <description type="text">Testing that a single rollout group can be retrieved</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717957498" stop="1519717957569" status="passed">
+            <name>retrieveRolloutGroupsForSpecificRolloutWithRSQLParam</name>
+            <description type="text">Testing that rolloutgroup paged list with rsql parameter</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717957573" stop="1519717957593" status="passed">
+            <name>createRolloutWithNotExistingDistributionSetReturnsNotFound</name>
+            <description type="text">Testing that creating rollout with not exisiting distribution set returns not found</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717957596" stop="1519717957630" status="passed">
+            <name>createRolloutWithToHighPercentage</name>
+            <description type="text">Testing that no rollout with groups that have illegal percentages can be created</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717957633" stop="1519717957697" status="passed">
+            <name>retrieveRolloutGroupsForSpecificRollout</name>
+            <description type="text">Testing that rollout paged list is limited by the query param limit</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717957701" stop="1519717957765" status="passed">
+            <name>deleteRollout</name>
+            <description type="text">Deletion of a rollout</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717957768" stop="1519717957809" status="passed">
+            <name>createRolloutWithInsufficientPermissionReturnsForbidden</name>
+            <description type="text">Testing that creating rollout with insufficient permission returns forbidden</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717957813" stop="1519717957943" status="passed">
+            <name>rolloutPagedListIsLimitedToQueryParam</name>
+            <description type="text">Testing that rollout paged list is limited by the query param limit</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717957947" stop="1519717958089" status="passed">
+            <name>retrieveSingleRollout</name>
+            <description type="text">Terives sinle rollout from management API includinfg extra data that is delieverd only for single rollout access.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717958093" stop="1519717958121" status="passed">
+            <name>createRolloutWithInvalidBodyReturnsBadRequest</name>
+            <description type="text">Testing that creating rollout with wrong body returns bad request</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717958125" stop="1519717958258" status="passed">
+            <name>pausingRolloutSwitchesIntoPausedState</name>
+            <description type="text">Testing that pausing the rollout switches the state to paused</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21625@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Rollout Resource"/>
+        <label name="feature" value="Component Tests - Management API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

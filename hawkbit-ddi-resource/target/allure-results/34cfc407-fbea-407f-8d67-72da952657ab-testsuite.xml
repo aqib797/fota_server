@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718014693" stop="1519718056765" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.ddi.rest.resource.DdiDeploymentBaseTest</name>
+    <test-cases>
+        <test-case start="1519718014693" stop="1519718014908" status="passed">
+            <name>artifactsNotFound</name>
+            <description type="text">Ensures that artifacts are not found, when softare module does not exists.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718014911" stop="1519718015251" status="passed">
+            <name>tooMuchDeploymentActionMessagesInFeedback</name>
+            <description type="text">The server protects itself against too large feedback bodies. The test verifies that it is not possible to exceed the configured maximum number of feedback details.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718015255" stop="1519718017556" status="passed">
+            <name>changeEtagIfActionSwitchesFromSoftToForced</name>
+            <description type="text">Checks that the deployementBase URL changes when the action is switched from soft to forced in TIMEFORCED case.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718017561" stop="1519718017731" status="passed">
+            <name>badDeploymentAction</name>
+            <description type="text">Test various invalid access attempts to the deployment resource und the expected behaviour of the server.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718017734" stop="1519718018486" status="passed">
+            <name>missingFinishedAttributeInFeedbackReturnsBadRequest</name>
+            <description type="text">Ensures that a missing finished result in feedback body returns a bad request.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718018489" stop="1519718018768" status="passed">
+            <name>deplomentAutoForceAction</name>
+            <description type="text">Attempt/soft deployment to a controller including automated switch to hard. Checks if the resource reponse payload  for a given deployment is as expected.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718018770" stop="1519718019457" status="passed">
+            <name>missingResultAttributeInFeedbackReturnsBadRequest</name>
+            <description type="text">Ensures that a missing feedback result in feedback body returns a bad request.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718019460" stop="1519718019610" status="passed">
+            <name>rootRsSingleDeplomentActionWithErrorFeedback</name>
+            <description type="text">Verfies that an update action is correctly set to error if the controller provides error feedback.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718019612" stop="1519718019773" status="passed">
+            <name>deplomentForceAction</name>
+            <description type="text">Forced deployment to a controller. Checks if the resource reponse payload for a given deployment is as expected.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718019775" stop="1519718019991" status="passed">
+            <name>deplomentAttemptAction</name>
+            <description type="text">Attempt/soft deployment to a controller. Checks if the resource reponse payload  for a given deployment is as expected.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718019993" stop="1519718020681" status="passed">
+            <name>invalidIdInFeedbackReturnsBadRequest</name>
+            <description type="text">Ensures that an invalid id in feedback body returns a bad request.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718020684" stop="1519718021735" status="passed">
+            <name>tooMuchDeplomentActionFeedback</name>
+            <description type="text">The server protects itself against to many feedback upload attempts. The test verfies that it is not possible to exceed the configured maximum number of feedback uplods.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718021754" stop="1519718021945" status="passed">
+            <name>badDeplomentActionFeedback</name>
+            <description type="text">Various forbidden request appempts on the feedback resource. Ensures correct answering behaviour as expected to these kind of errors.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718021947" stop="1519718022228" status="passed">
+            <name>multipleDeplomentActionFeedback</name>
+            <description type="text">Multiple uploads of deployment status feedback to the server.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718022233" stop="1519718022461" status="passed">
+            <name>rootRsSingleDeplomentActionFeedback</name>
+            <description type="text">Verfies that the controller can provided as much feedback entries as necessry as long as it is in the configured limites.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718022463" stop="1519718022544" status="passed">
+            <name>artifactsExists</name>
+            <description type="text">Ensures that artifacts are found, when software module exists.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21889@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Deployment Action Resource"/>
+        <label name="feature" value="Component Tests - Direct Device Integration API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

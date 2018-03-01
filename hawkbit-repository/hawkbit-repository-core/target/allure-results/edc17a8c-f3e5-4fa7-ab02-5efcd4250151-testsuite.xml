@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717690757" stop="1519717691024" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.event.BusProtoStuffMessageConverterTest</name>
+    <test-cases>
+        <test-case start="1519717690764" stop="1519717690848" status="passed">
+            <name>missingEventTypeMappingThrowsMessageConversationException</name>
+            <description type="text">Verifies that a MessageConversationException is thrown on missing event-type information encoding</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20377@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717690865" stop="1519717691022" status="passed">
+            <name>successfullySerializeAndDeserializeEvent</name>
+            <description type="text">Verifies that the TargetCreatedEvent can be successfully serialized and deserialized</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20377@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717830182" stop="1519717891032" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.DistributionSetTagManagementTest</name>
+    <test-cases>
+        <test-case start="1519717830182" stop="1519717830713" status="passed">
+            <name>updateDistributionSetTag</name>
+            <description type="text">Tests the name update of a target tag.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717830715" stop="1519717830930" status="passed">
+            <name>entityQueriesReferringToNotExistingEntitiesThrowsException</name>
+            <description type="text">Verifies that management queries react as specfied on calls for non existing entities  by means of throwing EntityNotFoundException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717830932" stop="1519717831280" status="passed">
+            <name>findDistributionSetTagsAll</name>
+            <description type="text">Ensures that all tags are retrieved through repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717831282" stop="1519717831299" status="passed">
+            <name>failedDuplicateDsTagNameExceptionAfterUpdate</name>
+            <description type="text">Ensures that a tag cannot be updated to a name that already exists on another tag (ecpects EntityAlreadyExistsException).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717831302" stop="1519717831545" status="passed">
+            <name>assignAndUnassignDistributionSetTags</name>
+            <description type="text">Verifies the toogle mechanism by means on assigning tag if at least on DS in the list does not havethe tag yet. Unassign if all of them have the tag already.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717831547" stop="1519717832232" status="passed">
+            <name>createAndAssignAndDeleteDistributionSetTags</name>
+            <description type="text">Full DS tag lifecycle tested. Create tags, assign them to sets and delete the tags.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717832234" stop="1519717832247" status="passed">
+            <name>createDistributionSetTag</name>
+            <description type="text">Ensures that a created tag is persisted in the repository as defined.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717832249" stop="1519717832264" status="passed">
+            <name>failedDuplicateDsTagNameException</name>
+            <description type="text">Ensures that a tag cannot be created if one exists already with that name (ecpects EntityAlreadyExistsException).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717832266" stop="1519717832656" status="passed">
+            <name>deleteDistributionSetTag</name>
+            <description type="text">Ensures that a deleted tag is removed from the repository as defined.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717832658" stop="1519717833000" status="passed">
+            <name>createDistributionSetTags</name>
+            <description type="text">Ensures that a created tags are persisted in the repository as defined.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717833002" stop="1519717833113" status="passed">
+            <name>nonExistingEntityAccessReturnsNotPresent</name>
+            <description type="text">Verifies that management get access reacts as specfied on calls for non existing entities by means of Optional not present.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="DistributionSet Tag Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

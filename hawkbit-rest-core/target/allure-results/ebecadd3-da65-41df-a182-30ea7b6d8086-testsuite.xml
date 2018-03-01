@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717900732" stop="1519717900844" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.rest.util.SortUtilityTest</name>
+    <test-cases>
+        <test-case start="1519717900732" stop="1519717900735" status="passed">
+            <name>parseWrongSyntaxParam</name>
+            <description type="text">Sorting with wrong syntax leads to SortParameterSyntaxErrorException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21505@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717900736" stop="1519717900742" status="passed">
+            <name>parseSortParam1</name>
+            <description type="text">Ascending sorting based on name.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21505@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717900743" stop="1519717900743" status="passed">
+            <name>parseSortParam2</name>
+            <description type="text">Ascending sorting based on name and descending sorting based on description.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21505@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717900744" stop="1519717900744" status="passed">
+            <name>parsingIsNotCaseSensitive</name>
+            <description type="text">Sorting based on name with case sensitive is possible.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21505@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717900745" stop="1519717900746" status="passed">
+            <name>parseWrongDirectionParam</name>
+            <description type="text">Sorting with unknown direction order leads to SortParameterUnsupportedDirectionException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21505@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717900746" stop="1519717900746" status="passed">
+            <name>parseWrongFieldParam</name>
+            <description type="text">Sorting with unknown field leads to SortParameterUnsupportedFieldException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="21505@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Sorting parameter"/>
+        <label name="feature" value="Component Tests - Management API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

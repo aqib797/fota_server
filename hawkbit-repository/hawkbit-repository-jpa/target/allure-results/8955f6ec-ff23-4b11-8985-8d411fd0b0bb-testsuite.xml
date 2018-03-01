@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717844698" stop="1519717890950" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.SoftwareModuleManagementTest</name>
+    <test-cases>
+        <test-case start="1519717844698" stop="1519717844797" status="passed">
+            <name>countSoftwareModuleTypesAll</name>
+            <description type="text">Verfies that all undeleted software modules are found in the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717844800" stop="1519717844996" status="passed">
+            <name>softDeleteOfAssignedArtifact</name>
+            <description type="text">Deletes an artifact, which is assigned to a DistributionSet</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717844999" stop="1519717845023" status="passed">
+            <name>countSoftwareModuleByFilters</name>
+            <description type="text">Checks that number of modules is returned as expected based on given filters.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845027" stop="1519717845068" status="passed">
+            <name>deleteSoftwareModulesWithSharedArtifact</name>
+            <description type="text">Delete an softwaremodule with an artifact, which is alsoused by another softwaremodule.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845071" stop="1519717845147" status="passed">
+            <name>findSoftwareModuleByFilters</name>
+            <description type="text">searched for software modules based on the various filter options, e.g. name,desc,type, version.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845150" stop="1519717845170" status="passed">
+            <name>countSoftwareModulesAll</name>
+            <description type="text">Counts all software modules in the repsitory that are not marked as deleted.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845173" stop="1519717845187" status="passed">
+            <name>findSoftwareModulesById</name>
+            <description type="text">Searches for software modules based on a list of IDs.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845189" stop="1519717845321" status="passed">
+            <name>entityQueriesReferringToNotExistingEntitiesThrowsException</name>
+            <description type="text">Verifies that management queries react as specfied on calls for non existing entities  by means of throwing EntityNotFoundException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845324" stop="1519717845446" status="passed">
+            <name>updateSoftwareModuleMetadata</name>
+            <description type="text">Checks that metadata for a software module can be updated.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845449" stop="1519717845474" status="passed">
+            <name>hardDeleteOfNotAssignedArtifact</name>
+            <description type="text">Deletes an artifact, which is not assigned to a Distribution Set</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845477" stop="1519717845492" status="passed">
+            <name>findSoftwareModulesByType</name>
+            <description type="text">Searches for software modules by type.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845495" stop="1519717845510" status="passed">
+            <name>createSoftwareModuleMetadataFailsIfKeyExists</name>
+            <description type="text">Checks that metadata for a software module cannot be created for an existing key.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845513" stop="1519717845558" status="passed">
+            <name>findSoftwareModuleOrderByDistributionModuleNameAscModuleVersionAsc</name>
+            <description type="text">Test verfies that results are returned based on given filter parameters and in the specified order.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845561" stop="1519717845573" status="passed">
+            <name>findSoftwareModuleMetadataFailsIfEntryDoesNotExist</name>
+            <description type="text">Verfies that non existing metadata find results in exception.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845576" stop="1519717845607" status="passed">
+            <name>softDeleteOfHistoricalAssignedArtifact</name>
+            <description type="text">Delete an artifact, which has been assigned to a rolled out DistributionSet in the past</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845611" stop="1519717845631" status="passed">
+            <name>createSoftwareModuleMetadata</name>
+            <description type="text">Checks that metadata for a software module can be created.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845635" stop="1519717845677" status="passed">
+            <name>deleteMultipleSoftwareModulesWhichShareAnArtifact</name>
+            <description type="text">Delete two assigned softwaremodules which share an artifact.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845679" stop="1519717845725" status="passed">
+            <name>findAllSoftwareModuleMetadataBySwId</name>
+            <description type="text">Queries and loads the metadata related to a given software module.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845729" stop="1519717845745" status="passed">
+            <name>createModuleCallFailsForExistingModule</name>
+            <description type="text">Create Software Module call fails when called for existing entity.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845748" stop="1519717845766" status="passed">
+            <name>findSoftwareModuleByAssignedTo</name>
+            <description type="text">Verfies that software modules are resturned that are assigned to given DS.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845768" stop="1519717845785" status="passed">
+            <name>deleteSoftwareModuleMetadata</name>
+            <description type="text">Verfies that existing metadata can be deleted.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845787" stop="1519717845800" status="passed">
+            <name>updateSoftareModuleFieldsToNewValue</name>
+            <description type="text">Calling update for changed fields results in change in the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845802" stop="1519717845925" status="passed">
+            <name>nonExistingEntityAccessReturnsNotPresent</name>
+            <description type="text">Verifies that management get access reacts as specfied on calls for non existing entities by means of Optional not present.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717845927" stop="1519717845939" status="passed">
+            <name>updateNothingResultsInUnchangedRepository</name>
+            <description type="text">Calling update without changing fields results in no recorded change in the repository including unchanged audit fields.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Software Module Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

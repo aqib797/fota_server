@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717760757" stop="1519717891022" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.TargetManagementTest</name>
+    <test-cases>
+        <test-case start="1519717760757" stop="1519717761821" status="passed">
+            <name>findTargetByControllerIDWithDetails</name>
+            <description type="text">Finds a target by given ID and checks if all data is in the reponse (including the data defined as lazy).</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717761825" stop="1519717762122" status="passed">
+            <name>entityQueriesReferringToNotExistingEntitiesThrowsException</name>
+            <description type="text">Verifies that management queries react as specfied on calls for non existing entities  by means of throwing EntityNotFoundException.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717762128" stop="1519717762280" status="passed">
+            <name>verifyFindTargetAllById</name>
+            <description type="text">Verify that the find all targets by ids method contains the entities that we are looking for</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717762284" stop="1519717762911" status="passed">
+            <name>targetTagBulkAssignments</name>
+            <description type="text">Tests the assigment of tags to multiple targets.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717762914" stop="1519717763276" status="passed">
+            <name>deleteAndCreateTargets</name>
+            <description type="text">Ensures that targets can deleted e.g. test all cascades</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717763279" stop="1519717763425" status="passed">
+            <name>createTargetDuplicate</name>
+            <description type="text">Checks if the EntityAlreadyExistsException is thrown if a single target with the same controller ID are created twice.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717763428" stop="1519717763683" status="passed">
+            <name>targetCanBeReadWithOnlyReadTargetPermission</name>
+            <description type="text">Tests the a target can be read with only the read target permission</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717763688" stop="1519717763814" status="passed">
+            <name>createMultipleTargetsDuplicate</name>
+            <description type="text">Checks if the EntityAlreadyExistsException is thrown if the targets with the same controller ID are created twice.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717763818" stop="1519717764621" status="passed">
+            <name>targetTagBulkUnassignments</name>
+            <description type="text">Tests the unassigment of tags to multiple targets.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717764625" stop="1519717764973" status="passed">
+            <name>targetTagAssignment</name>
+            <description type="text">Tests the assigment of tags to the a single target.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717764977" stop="1519717765095" status="passed">
+            <name>createTargetForTenantWhichDoesNotExistThrowsTenantNotExistException</name>
+            <description type="text">Ensures that targets cannot be created e.g. in plug'n play scenarios when tenant does not exists.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717765098" stop="1519717765588" status="passed">
+            <name>bulkTargetCreationAndDelete</name>
+            <description type="text">Create multiple tragets as bulk operation and delete them in bulk.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717765591" stop="1519717765939" status="passed">
+            <name>assignAndUnassignTargetsToTag</name>
+            <description type="text">Ensures that targets can assigned and unassigned to a target tag. Not exists target will be ignored for the assignment.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717765943" stop="1519717766310" status="passed">
+            <name>findTargetsWithNoTag</name>
+            <description type="text">Test that NO TAG functionality which gives all targets with no tag assigned.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717766314" stop="1519717766367" status="passed">
+            <name>findTargetsWithTagOrId</name>
+            <description type="text">Test that RSQL filter finds targets with tags or specific ids.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717766370" stop="1519717766594" status="passed">
+            <name>singleTargetIsInsertedIntoRepo</name>
+            <description type="text">Creates and updates a target and verifies the changes in the repository.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717766597" stop="1519717766722" status="passed">
+            <name>getTargetSecurityTokenOnlyWithCorrectPermission</name>
+            <description type="text">Ensures that retrieving the target security is only permitted with the necessary permissions.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717766726" stop="1519717766863" status="passed">
+            <name>createTargetThatViolatesUniqueConstraintFails</name>
+            <description type="text">Verify that a target with same controller ID than another device cannot be created.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717766867" stop="1519717766995" status="passed">
+            <name>nonExistingEntityAccessReturnsNotPresent</name>
+            <description type="text">Verifies that management get access react as specfied on calls for non existing entities by means of Optional not present.</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717767001" stop="1519717767261" status="passed">
+            <name>createAndUpdateTargetWithInvalidFields</name>
+            <description type="text">Verify that a target with with invalid properties cannot be created or updated</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Target Management"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

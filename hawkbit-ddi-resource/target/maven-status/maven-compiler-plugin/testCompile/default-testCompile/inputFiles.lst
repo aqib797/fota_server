@@ -1,0 +1,7 @@
+/home/apoorva/hawkbit/hawkbit-ddi-resource/src/test/java/org/eclipse/hawkbit/ddi/rest/resource/DdiRootControllerTest.java
+/home/apoorva/hawkbit/hawkbit-ddi-resource/src/test/java/org/eclipse/hawkbit/ddi/rest/resource/AbstractDDiApiIntegrationTest.java
+/home/apoorva/hawkbit/hawkbit-ddi-resource/src/test/java/org/eclipse/hawkbit/ddi/rest/resource/DdiConfigDataTest.java
+/home/apoorva/hawkbit/hawkbit-ddi-resource/src/test/java/org/eclipse/hawkbit/ddi/rest/resource/DosFilterTest.java
+/home/apoorva/hawkbit/hawkbit-ddi-resource/src/test/java/org/eclipse/hawkbit/ddi/rest/resource/DdiDeploymentBaseTest.java
+/home/apoorva/hawkbit/hawkbit-ddi-resource/src/test/java/org/eclipse/hawkbit/ddi/rest/resource/DdiArtifactDownloadTest.java
+/home/apoorva/hawkbit/hawkbit-ddi-resource/src/test/java/org/eclipse/hawkbit/ddi/rest/resource/DdiCancelActionTest.java

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718177474" stop="1519718179341" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.ui.dd.client.criteria.ViewClientCriterionTest</name>
+    <test-cases>
+        <test-case start="1519718177474" stop="1519718178638" status="passed">
+            <name>processMultiRowDragDecorationMultiSelection</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718178639" stop="1519718178705" status="passed">
+            <name>verifyCompiledTemplateStrings</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718178706" stop="1519718178720" status="passed">
+            <name>processMultiRowDragDecorationNonTable</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718178721" stop="1519718178725" status="passed">
+            <name>processMultiRowDragDecorationSingleSelection</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718178726" stop="1519718178738" status="passed">
+            <name>exceptionWhenProcessingDropTargetHintsDataStructure</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718178738" stop="1519718178739" status="passed">
+            <name>processSerializedDropTargetHintsConfig</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718178740" stop="1519718178743" status="passed">
+            <name>processMultiRowDragDecorationMultiSelectionNotDragged</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="23520@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

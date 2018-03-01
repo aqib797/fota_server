@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.hawkbit.mgmt.rest.resource.MgmtRolloutResourceTest
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.447 sec - in org.eclipse.hawkbit.mgmt.rest.resource.MgmtRolloutResourceTest

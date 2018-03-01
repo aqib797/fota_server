@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519718140464" stop="1519718140544" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.amqp.BaseAmqpServiceTest</name>
+    <test-cases>
+        <test-case start="1519718140464" stop="1519718140465" status="passed">
+            <name>updateActionStatusWithEmptyContent</name>
+            <description type="text">Tests invalid empty message content</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718140465" stop="1519718140466" status="passed">
+            <name>updateActionStatusWithInvalidJsonContent</name>
+            <description type="text">Tests invalid json message content</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718140466" stop="1519718140466" status="passed">
+            <name>convertMessageWithNullContent</name>
+            <description type="text">Tests invalid null message content</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519718140467" stop="1519718140472" status="passed">
+            <name>convertMessageTest</name>
+            <description type="text">Verify that the message conversion works</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="22151@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Base Amqp Service Test"/>
+        <label name="feature" value="Component Tests - Device Management Federation API"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

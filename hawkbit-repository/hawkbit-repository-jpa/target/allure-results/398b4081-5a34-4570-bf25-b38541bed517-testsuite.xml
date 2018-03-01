@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519717790765" stop="1519717891089" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.eclipse.hawkbit.repository.jpa.rsql.RSQLSoftwareModuleMetadataFieldsTest</name>
+    <test-cases>
+        <test-case start="1519717790765" stop="1519717790874" status="passed">
+            <name>testFilterByParameterValue</name>
+            <description type="text">Test fitler software module metadata by value</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717790876" stop="1519717790903" status="passed">
+            <name>testFilterByParameterTargetVisible</name>
+            <description type="text">Test fitler software module metadata by target visible</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1519717790905" stop="1519717790937" status="passed">
+            <name>testFilterByParameterKey</name>
+            <description type="text">Test filter software module metadata by key</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="apoorva"/>
+                <label name="thread" value="20445@apoorva.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="RSQL filter software module metadata"/>
+        <label name="feature" value="Component Tests - Repository"/>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

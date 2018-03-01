@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.hawkbit.repository.event.remote.entity.TargetEventTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.767 sec - in org.eclipse.hawkbit.repository.event.remote.entity.TargetEventTest
